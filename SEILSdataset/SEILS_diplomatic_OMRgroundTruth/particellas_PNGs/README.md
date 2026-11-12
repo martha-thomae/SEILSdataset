@@ -1,0 +1,3 @@
+# Particellas PNG files
+
+The PDFs from `particellas_original` folder have been converted into PNGs. Most of them had a size of 1200 x 813 pixels, except for a few with size of 2550 x 3300 pixels. These few had extra white areas on top and bottom of the image. We trimmed those using ImageMagick (`magick "$file" -trim`), resulting in an image size of 2550 x 1728 pixels. Then we resized these images to match the 1200 width of the rest of the images (`magick "$file" -resize 1200x`).
