@@ -27,13 +27,16 @@ for file_path in input_dir.iterdir():
             stafftokens = staff_content.splitlines()
             # (1) retrieve the clef from the first staff
             if i == 0:
-                matches = [token for token in stafftokens if re.search(r"\*clef..", token)]
-                staff0_last_clef = matches[-1]
+                clef_matches = [token for token in stafftokens if re.search(r"\*clef..", token)]
+                staff0_last_clef = clef_matches[-1]
+                keysig_matches = [token for token in stafftokens if re.search(r"\*k\[.*\]", token)]
+                staff0_last_keysig = keysig_matches[-1]
             # (2) add that clef as the first token for all other staves of the same piece/work
             else:
                 stafftokens.pop(0) # Remove the first token, which is an empty one for all staves other than the first
                 stafftokens.insert(0, "**mens")
                 stafftokens.insert(1, staff0_last_clef)
+                stafftokens.insert(2, staff0_last_keysig)
 
             staff_content = "\n".join(stafftokens)
             output_path = output_dir / f"{file_path.stem}_staff{i+1}.mns"
