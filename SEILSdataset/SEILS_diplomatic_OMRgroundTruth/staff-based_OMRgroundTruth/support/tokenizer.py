@@ -51,8 +51,8 @@ dot_pattern = make_pattern(dots)
 pattern = re.compile(
     rf'(?P<ligature_start>{ligature_pattern})?'
     rf'(?P<shape>{shape_pattern})'
-    rf'(?P<dot>{dot_pattern})?'
     rf'(?P<color>{coloration_pattern})?'
+    rf'(?P<dot>{dot_pattern})?'
     rf'(?P<pitch>{pitch_pattern})'
     rf'(?P<restline>{restline_pattern})?'
     rf'(?P<accidental>{accid_pattern})?'
