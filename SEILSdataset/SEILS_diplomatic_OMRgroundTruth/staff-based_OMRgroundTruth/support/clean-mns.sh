@@ -17,6 +17,7 @@ find "$SOURCE" -type f -name "*.mns" | while IFS= read -r file;do
         -e '/^\.$/d' \
         -e '/^!/d' \
         -e '/^\*k\[\]/d' \
+        -e '/^\*staff./d' \
         -e 's/[ip]//g' \
         "$file" > "$output_file"
 
