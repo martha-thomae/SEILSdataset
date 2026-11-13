@@ -1,6 +1,9 @@
-cd SEILSdataset/SEILS_diplomatic_OMRgroundTruth/particellas_codified
-mkdir -p ../extracted_spines
+#!/bin/bash
 
-for file in *.mns; do
-    extract -i '**mens' "$file" > "../extracted_spines/$file"
+mkdir -p ./extracted_mens_spines
+
+input_dir="../../particellas_codified"
+for file in "$input_dir"/*.mns; do
+	filename=$(basename "$file")
+    extract -i '**mens' "$file" > "extracted_mens_spines/$filename"
 done
