@@ -75,14 +75,25 @@ def tokenize(mens_token):
     ]
 
 
-input_dir = Path(input("ENTER the SAMPLES FOLDER for all the samples (encoded in **mens but stored as .lmx) that you would want to sub-tokenize: "))
+input_dir = Path("./staffEncodingsCleaned")
+output_dir = Path("./staffEncodingsSubtokenized")
+
 for file_path in input_dir.rglob("*.mns"):
+    
+    # Read input file
     with file_path.open("r", encoding="utf-8") as infile_mensstaff:
         lines = infile_mensstaff.readlines()
 
-    with file_path.open("w", encoding="utf-8") as outfile_subtokenized:
+    # Create output file
+    relative_path = file_path.relative_to(input_dir)        # Get relative path form input directory
+    output_path = output_dir / relative_path                # And construct the output path
+    output_path.parent.mkdir(parents=True, exist_ok=True)   # Create the destination directory if it doesn't exist
+
+    # Write to output file
+    with output_path.open("w", encoding="utf-8") as outfile_subtokenized:
         for line in lines:
             mens_token = line.strip()
             components = tokenize(mens_token)
             outfile_subtokenized.write(" ".join(components) + "\n")
+
     print(f"Processed: {file_path}")
