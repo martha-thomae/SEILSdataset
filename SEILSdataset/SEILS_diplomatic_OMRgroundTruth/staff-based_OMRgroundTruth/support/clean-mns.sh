@@ -12,14 +12,12 @@ find "$SOURCE" -type f -name "*.mns" | while IFS= read -r file;do
     mkdir -p "$(dirname "$output_file")"
 
     sed \
-        -e '/^\*.:/d' \
         -e '/^\*-/d' \
         -e '/\*M/d' \
         -e '/^\.$/d' \
         -e '/^!/d' \
         -e '/^\*k\[\]/d' \
         -e 's/[ip]//g' \
-        -e 's/^\*custos:\(.*\)$/\*custos\1/' \
         "$file" > "$output_file"
 
 done
