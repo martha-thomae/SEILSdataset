@@ -41,5 +41,6 @@ for file_path in input_dir.iterdir():
                     stafftokens.insert(2, staff0_last_keysig)
 
             staff_content = "\n".join(stafftokens)
+            staff_content = staff_content + "\n"
             output_path = output_dir / f"{file_path.stem}_staff{i+1}.mns"
             output_path.write_text(staff_content, encoding="utf-8")
