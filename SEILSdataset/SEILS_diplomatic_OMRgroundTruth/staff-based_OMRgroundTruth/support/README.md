@@ -1,3 +1,90 @@
-# Particellas PNG files
+# Retrieving the staff-based OMR ground truth
 
-The PDFs from `particellas_original` folder have been converted into PNGs. Most of them had a size of 1200 x 813 pixels, except for a few with size of 2550 x 3300 pixels. These few had extra white areas on top and bottom of the image. We trimmed those using ImageMagick (`magick "$file" -trim`), resulting in an image size of 2550 x 1728 pixels. Then we resized these images to match the 1200 width of the rest of the images (`magick "$file" -resize 1200x`).
+## A) Generating the images
+
+### A.1. Particellas PNG files
+
+The PDFs from [`particellas_original`](../../particellas_original) folder have been converted into PNGs. Most of them had a size of 1200 x 813 pixels, except for a few with size of 2550 x 3300 pixels. These few had extra white areas on top and bottom of the image. We trimmed those using ImageMagick (`magick "$file" -trim`), resulting in an image size of 2550 x 1728 pixels. Then we resized these images to match the 1200 width of the rest of the images (`magick "$file" -resize 1200x`). The resulting PNGs are stored in [`particellas_PNGs`](./particellas_PNGs)
+
+### A.2. Staff regions
+
+The generated PNGs for the particellas (see previous step and [`particellas_PNGs`](./particellas_PNGs) folder) were uploaded into label studio to identify the staff regions. The results are stored in ...
+
+
+## B) Generating the sub-tokenized \*\*mens encodings
+
+The workflow for generating sub-tokenized mensural notation encodings from the original Humdrum mensural notation files of the particellas (stored in the [`particellas_codified`](../../particellas_codified) folder) consists of four stages:
+
+**Extraction → Cleaning → Staff segmentation → Sub-tokenization**
+
+Each stage is performed by a dedicated Bash or Python script. The output of each stage serves as the input to the next one.
+
+### 1. Extraction of `**mens` spines
+
+[`extract_mens_spines.sh`](./extract_mens_spines.sh) – Bash script that extracts the `**mens` spine from each Humdrum mensural notation file (`.mns`) in the [`particellas_codified`](../../particellas_codified) folder. 
+
+Each input file contains two spines corresponding to a given choral voice: one encoding the music (`**mens`) and another encoding the lyrics (`**text`). The script extracts the musical spine alone (`**mens`)---discarding the lyrics spine---and saves the resulting files in [`extracted_mens_spines`](./extracted_mens_spines), preserving their original filenames.
+
+  - **Input:** Humdrum `.mns` files in `particellas_codified`.
+  - **Output:** Files containing only the `**mens` spine, stored in `extracted_mens_spines`.
+
+
+### 2. Cleaning of `**mens` spines
+
+[`clean-mns.sh`](./clean-mns.sh) – Bash script that cleans the extracted `**mens` spines by removing tokens and token characters that are not relevant to the OMR process.
+  
+  - **Input:** Files in `extracted_mens_spines`.
+  - **Output:** Cleaned files stored in `cleaned_mens_spines`.
+
+The cleaning process removes the following elements:
+
+- **Tokens unrelated to mensural notation:**
+  - Time signature and tempo interpretations inherited from the modern transcriptions (Humdrum `**kern` files) from which the mensural files were generated (e.g., `*M4/4` and `*MM72`).
+  - Humdrum syntactic elements: staff-label interpretations (starting with `*staff`), spine terminators (`*-`), comments (starting with `!`), null data tokens (`.`), and null interpretation tokens (`*`).
+- **Characters encoding mensural rhythmic interpretation:** The `i` and `p` characters in note tokens, which indicate imperfect and perfect rhythmic values, respectively.
+- **Empty key signature interpretations:** Tokens such as `*k[]`.
+
+The following table lists the commands used for cleaning and describes their respective functions:
+
+  | Command | What it does |
+  | ------- | ------------ |
+  | `'/^\*-/d'` | Deletes spine terminators (`*-`) |
+  | `'/\*M/d'` | Deletes 'time signature' and 'tempo' interpretations |
+  | `'/^\.$/d'` | Deletes null data tokens (`.`) |
+  | `'/^\*$/d'` | Deletes null interpretation tokens (`*`) |
+  | `'/^!/d'` | Deletes comments |
+  | `'/^\*k\[\]/d'` | Deletes empty key signature interpretations (`*k[]`) |
+  | `'/^\*staff./d'` | Deletes staff-label interpretations (starting with `*staff`) |
+  | `'s/[ip]//g'` | Removes the `i` and `p` characters from data tokens (i.e., removes the rhythmic interpretation of mensural notes) |
+
+
+### 3. Staff segmentation
+
+[`divide_into_staves.py`](./divide_into_staves.py) – Python script that divides each cleaned `**mens` spine into segments corresponding to the individual staves in the original source.
+
+Each input file contains the cleaned `**mens` spine for a single choral voice. Staff breaks are indicated by the `=-` token, which the script uses to identify the boundaries between successive staves.
+
+- **Input:** Cleaned `**mens` spines in `cleaned_mens_spines`.
+- **Output:** Individual staff-based `**mens` segments, stored in `staff_segmented_mens`.
+
+
+### 4. Sub-tokenization
+
+[`tokenizer.py`](./tokenizer.py) – Python script that splits individual `**mens` tokens into smaller units (subtokens).[^1]
+
+For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its constituent elements: the ligature start marker (`[`), the semibrevis note shape (`s`), the coloration marker (`~`), the pitch (`g`), and the accidental (`#`). This decomposition reduces the vocabulary size that the OMR model needs to handle.
+
+- **Input:** Staff-segmented `**mens` files in `staff_segmented_mens`.
+- **Output:** Sub-tokenized, staff-segmented `**mens` files, stored in `subtokenized_staff_segmented_mens`.
+
+[^1]: The tokenizer distinguishes between two types of ligatures: oblique ligatures, marked by `<` and `>`, and recta ligatures, marked by `[` and `]`.
+
+
+### Summary
+
+| Stage | Output folder | Contents |
+| ----- | ------------- | -------- |
+| 1. Extraction | `extracted_mens_spines` | Extracted `**mens` spines from particellas |
+| 2. Cleaning | `cleaned_mens_spines` | Cleaned `**mens` spines |
+| 3. Staff segmentation | `staff_segmented_mens` | `**mens` spines segmented into individual staves |
+| 4. Sub-tokenization | `subtokenized_staff_segmented_mens` | Staff-segmented `**mens` files whose tokens have been divided into subtokens |
