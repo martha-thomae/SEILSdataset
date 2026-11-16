@@ -57,6 +57,8 @@ The following table lists the commands used for cleaning and describes their res
   | `'/^\*staff./d'` | Deletes staff-label interpretations (starting with `*staff`) |
   | `'s/[ip]//g'` | Removes the `i` and `p` characters from data tokens (i.e., removes the rhythmic interpretation of mensural notes) |
 
+**IMPORTANT:** The cleaning process also provides an **important fix** for the mensuration sign `C3/2` included in one of the chorales (_virchi_arsimentre_). This mensuration sign was encoded by two consecutive mensuration interpretation tokens: `*met(C)` and `*met(3/2)`. The `clean-mns.sh` merges these two tokens into a single `*met(C3/2)` token. The `*met(C3/2)` mensuration sign is handled correctly by the Verovio Humdrum Viewer when converting the Humdrum mensural file into Mensural MEI (it gets converted into `<mensur sign="C" num="3" numbase="2">`).[^1]
+
 
 ### 3. Staff segmentation
 
@@ -77,8 +79,6 @@ For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its c
 - **Input:** Staff-segmented `**mens` files in `staff_segmented_mens`.
 - **Output:** Sub-tokenized, staff-segmented `**mens` files, stored in `subtokenized_staff_segmented_mens`.
 
-[^1]: The tokenizer distinguishes between two types of ligatures: oblique ligatures, marked by `<` and `>`, and recta ligatures, marked by `[` and `]`.
-
 
 ### Summary
 
@@ -88,3 +88,14 @@ For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its c
 | 2. Cleaning | `cleaned_mens_spines` | Cleaned `**mens` spines |
 | 3. Staff segmentation | `staff_segmented_mens` | `**mens` spines segmented into individual staves |
 | 4. Sub-tokenization | `subtokenized_staff_segmented_mens` | Staff-segmented `**mens` files whose tokens have been divided into subtokens |
+
+
+
+[^1]: The separate mensuration sign tokens would get converted into two `mensur` elements:
+```xml
+ <mensur sign="C">
+ <mensur num="3" numbase="2">
+```
+instead of one mensuration sign with its own meaning
+
+[^2]: The tokenizer distinguishes between two types of ligatures: oblique ligatures, marked by `<` and `>`, and recta ligatures, marked by `[` and `]`.
