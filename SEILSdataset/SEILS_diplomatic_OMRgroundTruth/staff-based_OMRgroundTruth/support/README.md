@@ -72,7 +72,7 @@ Each input file contains the cleaned `**mens` spine for a single choral voice. S
 
 ### 4. Sub-tokenization
 
-[`tokenizer.py`](./tokenizer.py) – Python script that splits individual `**mens` tokens into smaller units (subtokens).[^1]
+[`tokenizer.py`](./tokenizer.py) – Python script that splits individual `**mens` tokens into smaller units (subtokens).[^2]
 
 For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its constituent elements: the ligature start marker (`[`), the semibrevis note shape (`s`), the coloration marker (`~`), the pitch (`g`), and the accidental (`#`). This decomposition reduces the vocabulary size that the OMR model needs to handle.
 
@@ -91,11 +91,6 @@ For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its c
 
 
 
-[^1]: The separate mensuration sign tokens would get converted into two `mensur` elements:
-```xml
- <mensur sign="C">
- <mensur num="3" numbase="2">
-```
-instead of one mensuration sign with its own meaning
+[^1]: The separate mensuration sign tokens would get converted into two `mensur` elements, `<mensur sign="C" modusmaior="2" modusminor="2" tempus="2" prolatio="2">` followed by `<mensur num="3" numbase="2">`, instead of one mensuration sign `<mensur sign="C" num="3" numbase="2">` with its own meaning, which can be provided through the `@modusminor`, `@tempus`, and `@prolatio` attributes.
 
 [^2]: The tokenizer distinguishes between two types of ligatures: oblique ligatures, marked by `<` and `>`, and recta ligatures, marked by `[` and `]`.
