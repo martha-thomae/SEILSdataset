@@ -4,8 +4,8 @@ from pathlib import Path
 
 CLEF_DEFAULT = "*clefG2"
 
-input_dir = Path("extracted_mens_spines")
-output_dir = Path("partitioned")
+input_dir = Path("cleaned_mens_spines")
+output_dir = Path("staff_segmented_mens")
 
 output_dir.mkdir(exist_ok=True)
 

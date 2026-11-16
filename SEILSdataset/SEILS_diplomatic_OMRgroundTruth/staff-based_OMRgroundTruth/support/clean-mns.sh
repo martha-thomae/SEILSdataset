@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SOURCE="./partitioned"
-DEST="./staffEncodingsCleaned"
+SOURCE="./extracted_mens_spines"
+DEST="./cleaned_mens_spines"
 
 mkdir -p "$DEST"
 

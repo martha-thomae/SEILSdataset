@@ -75,8 +75,8 @@ def tokenize(mens_token):
     ]
 
 
-input_dir = Path("./staffEncodingsCleaned")
-output_dir = Path("./staffEncodingsSubtokenized")
+input_dir = Path("./staff_segmented_mens")
+output_dir = Path("./subtokenized_staff_segmented_mens")
 
 for file_path in input_dir.rglob("*.mns"):
     
