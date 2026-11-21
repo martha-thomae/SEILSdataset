@@ -20,6 +20,7 @@ def main():
         print(f"PROCESSING: {pieceNameVoiceNo}")
 
         staves = img["label"]
+        staves = sorted(staves, key=lambda staff: staff["y"])
         for i, staff in enumerate(staves):
             x0 = staff["x"]
             y0 = staff["y"]
