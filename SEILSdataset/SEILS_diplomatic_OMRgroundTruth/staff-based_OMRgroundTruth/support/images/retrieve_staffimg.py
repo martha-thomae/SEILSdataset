@@ -18,8 +18,6 @@ def main():
         pieceNameVoiceNo = img["image"]
         print(f"PROCESSING: {pieceNameVoiceNo}")
 
-        image = Image.open(pieceNameVoiceNo)
-
         staves = img["label"]
         staves = sorted(staves, key=lambda staff: staff["y"])
         for i, staff in enumerate(staves):
@@ -35,24 +33,14 @@ def main():
             )
             print(f"- Staff region {i+1}: {coordinates}")
 
+            image = Image.open(pieceNameVoiceNo)
             cropped = image.crop(coordinates)
-
-            rotation = staff["rotation"]
-            if rotation != 0:
-                cropped = cropped.rotate(
-                    rotation,
-                    resample=Image.Resampling.BICUBIC,
-                    expand=True,
-                    fillcolor="white"
-                )
 
             OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
             output_file = OUTPUT_DIR / f"{Path(pieceNameVoiceNo).stem}_staff{i+1}.png"
             cropped.save(output_file)
 
-        image.close()
         print("Completed\n")
-
     print("-- END --")
 
 
