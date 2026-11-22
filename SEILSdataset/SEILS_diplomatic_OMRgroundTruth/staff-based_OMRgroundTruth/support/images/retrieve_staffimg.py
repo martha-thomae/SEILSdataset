@@ -11,7 +11,6 @@ ORIG_HEIGHT = 813
 def main():
     print("-- START --")
     filepath = Path("staff-regions.json")
-    """Process on JSON file and all of its regions."""
     with filepath.open("r", encoding="utf-8") as f:
         images_in_corpus = json.load(f)
     
@@ -26,7 +25,12 @@ def main():
             y0 = staff["y"]
             x1 = x0 + staff["width"]
             y1 = y0 + staff["height"]
-            coordinates = (x0/100*ORIG_WIDTH, y0/100*ORIG_HEIGHT, x1/100*ORIG_WIDTH, y1/100*ORIG_HEIGHT)
+            coordinates = (
+                x0/100*ORIG_WIDTH, 
+                y0/100*ORIG_HEIGHT, 
+                x1/100*ORIG_WIDTH, 
+                y1/100*ORIG_HEIGHT
+            )
             print(f"- Staff region {i+1}: {coordinates}")
 
             image = Image.open(pieceNameVoiceNo)
@@ -42,3 +46,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#still need to consider rotation
