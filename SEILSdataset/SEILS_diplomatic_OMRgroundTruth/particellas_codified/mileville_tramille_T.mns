@@ -30,7 +30,7 @@ sid	cel-
 .	.
 Mic	livn
 .	.
-*custos	*
+*custosc	*
 =-	=-
 Mic	dol-
 Mid	ceAl-
@@ -67,7 +67,7 @@ mid	ca-
 mid	poa-
 Mie	dor-
 mif##	no
-*custos	*
+*custosf	*
 =-	=-
 mif	Di
 mig	cui
@@ -108,7 +108,7 @@ sir	.
 .	.
 .	.
 .	.
-*custos	*
+*custosc	*
 =-	=-
 sic	Or-
 .	.
@@ -170,7 +170,7 @@ MiG	mẽ
 miG	d'un
 Mic	gior-
 .	.
-*custos	*
+*custosB	*
 =-	=-
 UiB	.
 UiA	.
@@ -216,7 +216,7 @@ Mp:d	glial-
 Uic##	.
 UiB	.
 Mic	.
-*custos	*
+*custosd	*
 =-	=-
 sid	trui
 .	.
@@ -261,7 +261,7 @@ sir	.
 .	.
 mid	gio-
 mic	.
-*custos	*
+*custosd	*
 =-	=-
 mid	.
 mie	.

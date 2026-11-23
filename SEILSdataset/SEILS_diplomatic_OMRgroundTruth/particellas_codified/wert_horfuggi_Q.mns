@@ -52,7 +52,7 @@ sid	om-
 Mic	bra
 Mic	Del
 .	.
-*custos	*
+*custosc	*
 =-	=-
 Mic	mio
 Mp:A	stan-
@@ -95,7 +95,7 @@ miA	tua
 miA	ra-
 Mic	di-
 mic	ce
-*custos	*
+*custosA	*
 =-	=-
 mp:A	Suel-
 .	.
@@ -145,7 +145,7 @@ UiG	.
 UiF	.
 MiG	.
 .	.
-*custos	*
+*custosF	*
 =-	=-
 miF	bra,
 miF	C'hor
@@ -188,7 +188,7 @@ Mic	ch'in-
 .	.
 mid	gõ-
 mic	brò
-*custos	*
+*custosA	*
 =-	=-
 miA	l'in-
 mp:c	gius-
@@ -231,7 +231,7 @@ miF	ch'in-
 miE	gõ-
 miF	bro
 miA	l'in-
-*custos	*
+*custosF	*
 =-	=-
 mp:F	gius-
 .	.
@@ -278,7 +278,7 @@ mir	.
 Mid	Nѐ
 .	.
 mie	sia
-*custos	*
+*custosf	*
 =-	=-
 Mif	più
 .	.
@@ -321,7 +321,7 @@ MiD	ne
 mir	.
 MiD	Nѐ
 .	.
-*custos	*
+*custosG	*
 =-	=-
 miG	sia
 miF	più
@@ -361,7 +361,7 @@ Mic	ne
 mir	.
 Mie	lar-
 .	.
-*custos	*
+*custosc	*
 =-	=-
 Mic	uee
 .	.

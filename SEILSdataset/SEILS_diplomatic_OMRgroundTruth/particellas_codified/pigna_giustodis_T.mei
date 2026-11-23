@@ -746,7 +746,7 @@
                                     <note xml:id="note-L284F1" dur="fusa" oct="4" pname="e" />
                                     <note xml:id="note-L285F1" dur="semiminima" oct="4" pname="e" />
                                     <note xml:id="note-L286F1" dur="semiminima" oct="4" pname="d" />
-                                    <custos pname="a" oct="3" />
+                                    <custos pname="c" oct="4" />
                                 </layer>
                             </staff>
                         </measure>
