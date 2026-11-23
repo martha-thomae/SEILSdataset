@@ -1,0 +1,61 @@
+7	bardi_lauro_A
+
+41	fiorino_delanima_T
+
+43	fronti_comehor_B
+46	fronti_comehor_T (3)
+
+57	ingegneri_gianon_A
+58	ingegneri_gianon_B
+59	ingegneri_gianon_C (1)
+60	ingegneri_gianon_Q (1)
+
+64	isnardi_apiedun_C
+65	isnardi_apiedun_Q
+
+70	luzzaschi_sellauro_Q (3)
+
+77	manara_chiama_A
+78	manara_chiama_B
+
+90	massaino_lafiamma_Q (1)
+
+97	mosto_seccoe_A
+99	mosto_seccoe_C
+
+107	pigna_giustodis_A (1)
+108	pigna_giustodis_B (1)
+110	pigna_giustodis_Q
+111	pigna_giustodis_T
+
+117	spontone_tamai_A
+118	spontone_tamai_B
+121	spontone_tamai_T (1)
+
+127	strigio_conlaura_A (1)
+
+133	vecchi_fummofelici_B (1)
+135	vecchi_fummofelici_Q (2)
+136	vecchi_fummofelici_T (3)
+
+137	virchi_arsimentre_A
+
+144	wert_horfuggi_C (2)
+145	wert_horfuggi_Q (2)
+
+155	giovannelli_nelfoco_Q
+
+157	macque_goditipur_A
+158	macque_goditipur_B
+160	macque_goditipur_Q
+161	macque_goditipur_T (2)
+
+166	marenzio_mentrelaura_T (1)
+
+168	perue_seitu_B (1)
+
+173	stabile_fullauro_B
+174	stabile_fullauro_C
+175	stabile_fullauro_Q
+
+178	zoilo_invano_B (1)
