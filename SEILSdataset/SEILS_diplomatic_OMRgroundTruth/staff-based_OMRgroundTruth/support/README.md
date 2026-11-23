@@ -84,10 +84,10 @@ For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its c
 
 | Stage | Output folder | Contents |
 | ----- | ------------- | -------- |
-| 1. Extraction | `extracted_mens_spines` | Extracted `**mens` spines from particellas |
-| 2. Cleaning | `cleaned_mens_spines` | Cleaned `**mens` spines |
-| 3. Staff segmentation | `staff_segmented_mens` | `**mens` spines segmented into individual staves |
-| 4. Sub-tokenization | `subtokenized_staff_segmented_mens` | Staff-segmented `**mens` files whose tokens have been divided into subtokens |
+| 1. Extraction (`extract_mens_spines.sh`) | `extracted_mens_spines` | Extracted `**mens` spines from particellas |
+| 2. Cleaning (`clean-mns.sh`) | `cleaned_mens_spines` | Cleaned `**mens` spines |
+| 3. Staff segmentation (`divide_into_staves.py`) | `staff_segmented_mens` | `**mens` spines segmented into individual staves |
+| 4. Sub-tokenization (`tokenizer.py`) | `subtokenized_staff_segmented_mens` | Staff-segmented `**mens` files whose tokens have been divided into subtokens |
 
 
 
