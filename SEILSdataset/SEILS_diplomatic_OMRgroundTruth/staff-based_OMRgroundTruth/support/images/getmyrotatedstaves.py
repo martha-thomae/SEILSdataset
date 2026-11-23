@@ -12,7 +12,9 @@ def extract_rotated_region(image, x, y, width, height, angle):
     Extract a rotated rectangular region from an image.
 
     x, y, width, height: Label Studio coordinates (percentages).
-    angle: rotation in degrees.
+    angle: rotation in degrees, clockwise in image coordinates.
+
+    Rotation origin: top-left corner (x, y).
     """
 
     # Convert percentages to image pixels
@@ -21,60 +23,69 @@ def extract_rotated_region(image, x, y, width, height, angle):
     width *= image.width / 100
     height *= image.height / 100
 
-    # Calculate the center of the bounding box
-    cx = x + width / 2
-    cy = y + height / 2
-
-    # Label Studio positive angles are clockwise in image coordinates.
     theta = math.radians(angle)
 
-    # Calculate the four rotated corners
-    corners = []
+    cos_a = math.cos(theta)
+    sin_a = math.sin(theta)
 
-    for dx, dy in [
-        (-width / 2, -height / 2),
-        (width / 2, -height / 2),
-        (width / 2, height / 2),
-        (-width / 2, height / 2)
-    ]:
-        rx = dx * math.cos(theta) - dy * math.sin(theta) + cx
-        ry = dx * math.sin(theta) + dy * math.cos(theta) + cy
+    # Rotate corners around the top-left corner
+    corners = [
+        (x, y),
+        (x + width * cos_a, y + width * sin_a),
+        (x + width * cos_a - height * sin_a,
+         y + width * sin_a + height * cos_a),
+        (x - height * sin_a, y + height * cos_a)
+    ]
 
-        corners.append((rx, ry))
-
-    # Get the enclosing axis-aligned rectangle
+    # Calculate enclosing axis-aligned rectangle
     min_x = math.floor(min(p[0] for p in corners))
     min_y = math.floor(min(p[1] for p in corners))
     max_x = math.ceil(max(p[0] for p in corners))
     max_y = math.ceil(max(p[1] for p in corners))
 
-    # Crop the entire enclosing rectangle from the original image
+    # Crop enclosing rectangle
     cropped = image.crop((min_x, min_y, max_x, max_y))
 
-    # Rotate the crop to compensate for the original rotation
-    if angle != 0:
-        cropped = cropped.rotate(
-            angle,
-            resample=Image.Resampling.BICUBIC,
-            expand=True,
-            fillcolor="white"
-        )
+    # Transform coordinates to the cropped image
+    local_corners = [
+        (px - min_x, py - min_y)
+        for px, py in corners
+    ]
 
-    # Extract the original bounding-box dimensions from the center
-    final_width = round(width)
-    final_height = round(height)
+    # Extract the rotated rectangle using a perspective transform.
+    # Map the rotated quadrilateral to a horizontal rectangle.
+    output_width = round(width)
+    output_height = round(height)
 
-    center_x = cropped.width / 2
-    center_y = cropped.height / 2
+    src = [
+        local_corners[0],
+        local_corners[1],
+        local_corners[2],
+        local_corners[3]
+    ]
 
-    cropped = cropped.crop((
-        round(center_x - final_width / 2),
-        round(center_y - final_height / 2),
-        round(center_x + final_width / 2),
-        round(center_y + final_height / 2)
-    ))
+    # Pillow QUAD transform expects the source quadrilateral
+    # in TL, BL, BR, TR order.
+    quad = [
+        src[0],
+        src[3],
+        src[2],
+        src[1]
+    ]
 
-    return cropped
+    result = cropped.transform(
+        (output_width, output_height),
+        Image.Transform.QUAD,
+        (
+            quad[0][0], quad[0][1],
+            quad[1][0], quad[1][1],
+            quad[2][0], quad[2][1],
+            quad[3][0], quad[3][1]
+        ),
+        resample=Image.Resampling.BICUBIC
+    )
+
+    return result
 
 
 def main():
