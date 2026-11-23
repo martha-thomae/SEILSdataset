@@ -57,7 +57,7 @@ miG
 mp:F
 .
 UiF
-*custos
+*custosE
 =-
 mp:E
 .
@@ -122,7 +122,7 @@ Sir
 .
 .
 .
-*custos
+*custosG
 =-
 sir
 .
@@ -170,7 +170,7 @@ Mir
 .
 .
 .
-*custos
+*custosG
 =-
 Mir
 .
@@ -222,7 +222,7 @@ siA
 MiD
 Mir
 MiBB
-*custos
+*custosF
 =-
 Mp:F
 miD
@@ -285,7 +285,7 @@ sir
 .
 .
 .
-*custos
+*custosA
 =-
 Mir
 .
@@ -342,7 +342,7 @@ Sir
 .
 .
 .
-*custos
+*custosD
 =-
 Mir
 .

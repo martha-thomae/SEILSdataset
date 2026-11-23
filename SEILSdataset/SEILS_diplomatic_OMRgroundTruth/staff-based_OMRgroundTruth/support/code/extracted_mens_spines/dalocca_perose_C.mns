@@ -41,7 +41,7 @@ Uicc
 mib
 mif
 .
-*custos
+*custosb
 =-
 Mib
 .
@@ -93,7 +93,7 @@ Uia
 midd
 .
 micc
-*custos
+*custosff
 =-
 miff
 .
@@ -131,7 +131,7 @@ Mp:b
 Uia
 Uig
 Mia
-*custos
+*custosb
 =-
 mib
 mib
@@ -176,7 +176,7 @@ mib
 mp:dd
 .
 Uidd
-*custos
+*custosee
 =-
 miee
 miff
@@ -219,7 +219,7 @@ midd
 Midd
 Midd
 .
-*custos
+*custosee
 =-
 mir
 miee-
@@ -251,7 +251,7 @@ mia
 miff
 miee
 midd
-*custos
+*custosdd
 =-
 Mp:dd
 .
@@ -314,7 +314,7 @@ sie
 *M4/4
 *met(C)
 Mid
-*custos
+*custosa
 =-
 mir
 mia
@@ -350,7 +350,7 @@ sia
 Mig
 mir
 mia
-*custos
+*custosb
 =-
 mib
 mp:dd

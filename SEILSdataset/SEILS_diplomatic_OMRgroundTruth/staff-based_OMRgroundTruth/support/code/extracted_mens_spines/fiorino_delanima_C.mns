@@ -30,7 +30,7 @@ mib
 Micc
 .
 Midd
-*custos
+*custoscc
 =-
 micc
 Uicc
@@ -68,7 +68,7 @@ micc##
 sidd
 sir
 .
-*custos
+*custoscc
 =-
 Mir
 .
@@ -107,7 +107,7 @@ Mib
 .
 Micc
 .
-*custos
+*custosb
 =-
 Mib
 .
@@ -164,7 +164,7 @@ Mib
 .
 Mir
 .
-*custos
+*custosdd
 =-
 mir
 midd
@@ -209,7 +209,7 @@ sidd
 Mib##
 Mir
 .
-*custos
+*custoscc
 =-
 sir
 .
@@ -254,7 +254,7 @@ sicc
 .
 Mib
 Mia
-*custos
+*custosff
 =-
 Miff
 Miff

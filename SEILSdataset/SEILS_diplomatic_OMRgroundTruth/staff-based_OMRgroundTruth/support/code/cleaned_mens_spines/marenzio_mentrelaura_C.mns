@@ -22,7 +22,7 @@ mdd
 mee
 Mff
 mcc
-*custos
+*custosff
 =-
 mff
 Udd
@@ -49,7 +49,7 @@ mff
 mdd
 sdd
 scc
-*custos
+*custoscc
 =-
 mcc
 mdd
@@ -106,7 +106,7 @@ Mcc
 mb
 Ma
 Mg
-*custos
+*custosdd
 =-
 mdd
 mdd
@@ -132,7 +132,7 @@ mee
 M:ff
 Uee
 Udd
-*custos
+*custoscc
 =-
 mcc##
 Mdd
@@ -164,7 +164,7 @@ Ucc
 Mb
 ma
 mdd
-*custos
+*custosff
 =-
 Uff
 Uee
@@ -193,7 +193,7 @@ Mgg
 sdd
 see-
 Mdd
-*custos
+*custoscc
 =-
 scc
 Mcc
@@ -226,7 +226,7 @@ mr
 mff
 mee
 mdd
-*custos
+*custoscc
 =-
 mcc
 mb

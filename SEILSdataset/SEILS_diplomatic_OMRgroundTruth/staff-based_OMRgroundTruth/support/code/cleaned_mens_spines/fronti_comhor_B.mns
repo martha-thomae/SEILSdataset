@@ -19,7 +19,7 @@ mFF
 m:C
 UC
 mE
-*custos
+*custosF
 =-
 MF
 SC
@@ -46,7 +46,7 @@ mBB
 mGG
 m:AA
 UBB
-*custos
+*custosC
 =-
 sC
 MFF
@@ -73,7 +73,7 @@ M:AA
 mAA
 sD
 sC
-*custos
+*custosFF
 =-
 sr
 mFF
@@ -100,7 +100,7 @@ MD
 MC
 sG
 MC
-*custos
+*custosF
 =-
 sF
 MD
@@ -126,7 +126,7 @@ MAA
 MAA
 MC
 MC
-*custos
+*custosGG
 =-
 [sGG
 sD]

@@ -21,7 +21,7 @@ mr
 mA
 m:d
 Ud
-*custos
+*custosd
 =-
 md
 md
@@ -45,7 +45,7 @@ mc
 mB##
 Mc
 MA
-*custos
+*custosB
 =-
 mr
 mB
@@ -71,7 +71,7 @@ mc
 mc
 m:d
 Ud
-*custos
+*custosd
 =-
 md
 mA
@@ -99,7 +99,7 @@ mc
 mB
 Mc
 MF
-*custos
+*custosF
 =-
 mr
 mF
@@ -126,7 +126,7 @@ mB
 MA
 sB##
 Mc
-*custos
+*custosB
 =-
 mB
 mA
@@ -153,7 +153,7 @@ mB
 MA
 mG
 mG
-*custos
+*custosF
 =-
 MF
 Mc

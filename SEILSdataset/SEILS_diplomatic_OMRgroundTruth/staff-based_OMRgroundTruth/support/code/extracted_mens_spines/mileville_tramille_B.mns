@@ -31,7 +31,7 @@ MiG
 siC
 .
 .
-*custos
+*custosBB
 =-
 MiBB
 .
@@ -72,7 +72,7 @@ Mir
 .
 sir
 .
-*custos
+*custosC
 =-
 Sir
 .
@@ -127,7 +127,7 @@ Mp:F
 .
 miF
 MiC
-*custos
+*custosD
 =-
 siD
 .
@@ -197,7 +197,7 @@ Lir
 MiC
 miC
 miC
-*custos
+*custosF
 =-
 MiF
 MiC
@@ -248,7 +248,7 @@ MiC
 .
 siD
 .
-*custos
+*custosF
 =-
 miF\
 miG

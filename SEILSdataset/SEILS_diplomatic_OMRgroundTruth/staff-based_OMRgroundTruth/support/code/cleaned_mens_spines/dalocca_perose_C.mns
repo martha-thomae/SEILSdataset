@@ -21,7 +21,7 @@ m:dd
 Ucc
 mb
 mf
-*custos
+*custosb
 =-
 Mb
 Ma
@@ -49,7 +49,7 @@ Ub
 Ua
 mdd
 mcc
-*custos
+*custosff
 =-
 mff
 m:ee
@@ -76,7 +76,7 @@ M:b
 Ua
 Ug
 Ma
-*custos
+*custosb
 =-
 mb
 mb
@@ -104,7 +104,7 @@ ma
 mb
 m:dd
 Udd
-*custos
+*custosee
 =-
 mee
 mff
@@ -134,7 +134,7 @@ mg
 mdd
 Mdd
 Mdd
-*custos
+*custosee
 =-
 mr
 mee-
@@ -159,7 +159,7 @@ ma
 mff
 mee
 mdd
-*custos
+*custosdd
 =-
 M:dd
 Ucc
@@ -191,7 +191,7 @@ Mf
 se
 *met(C)
 Md
-*custos
+*custosa
 =-
 mr
 ma
@@ -216,7 +216,7 @@ sa
 Mg
 mr
 ma
-*custos
+*custosb
 =-
 mb
 m:dd

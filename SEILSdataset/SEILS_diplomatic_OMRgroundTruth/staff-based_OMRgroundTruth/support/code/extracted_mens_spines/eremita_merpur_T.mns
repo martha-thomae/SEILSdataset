@@ -37,7 +37,7 @@ miG
 miA
 UiG
 UiF
-*custos
+*custosE
 =-
 siE
 .
@@ -91,7 +91,7 @@ Mid
 .
 mir
 miG
-*custos
+*custosG
 =-
 MiG
 .
@@ -136,7 +136,7 @@ MiA
 .
 .
 miB
-*custos
+*custosc
 =-
 mic
 MiB
@@ -169,7 +169,7 @@ siA
 .
 .
 .
-*custos
+*custosB
 =-
 siB
 .
@@ -206,7 +206,7 @@ mid
 .
 mp:d
 Uic
-*custos
+*custosd
 =-
 mp:d
 .
@@ -241,7 +241,7 @@ miA
 MiG
 miA
 miA
-*custos
+*custosd
 =-
 Mid
 .
@@ -283,7 +283,7 @@ mid
 mp:e
 .
 Uie
-*custos
+*custosd
 =-
 Mp:d
 .

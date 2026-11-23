@@ -35,7 +35,7 @@ MiD
 sir
 .
 .
-*custos
+*custosG
 =-
 sir
 .
@@ -108,7 +108,7 @@ UiE
 UiF
 UiBB
 UiD
-*custos
+*custosE
 =-
 UiE
 UiF
@@ -225,7 +225,7 @@ Lir
 miG
 miG
 miG
-*custos
+*custosF
 =-
 UiF##
 UiG
@@ -261,7 +261,7 @@ miG
 mp:F
 .
 UiG
-*custos
+*custosA
 =-
 MiA
 .

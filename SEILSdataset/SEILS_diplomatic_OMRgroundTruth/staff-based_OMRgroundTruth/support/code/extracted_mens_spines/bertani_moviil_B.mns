@@ -53,7 +53,7 @@ mp:G
 .
 UiF
 miE
-*custos
+*custosAA
 =-
 miAA
 miE
@@ -108,7 +108,7 @@ miA
 MiG##
 .
 .
-*custos
+*custosA
 =-
 MiA
 .
@@ -166,7 +166,7 @@ miF
 MiE
 .
 .
-*custos
+*custosA
 =-
 MiA
 .
@@ -221,7 +221,7 @@ siFF
 .
 .
 .
-*custos
+*custosD
 =-
 Sir
 .
@@ -316,7 +316,7 @@ mp:C
 .
 UiBB
 UiAA
-*custos
+*custosGG
 =-
 UiGG
 UiFF
@@ -358,7 +358,7 @@ MiFF
 .
 .
 .
-*custos
+*custosFF
 =-
 miFF
 .

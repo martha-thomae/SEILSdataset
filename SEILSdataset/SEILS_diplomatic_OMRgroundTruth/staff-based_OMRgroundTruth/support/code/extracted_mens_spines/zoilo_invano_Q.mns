@@ -40,7 +40,7 @@ miG
 sid
 .
 Mic##
-*custos
+*custosd
 =-
 Mir
 Mid
@@ -85,7 +85,7 @@ miB
 Mie
 .
 mid
-*custos
+*custosc
 =-
 Mic
 MiB
@@ -124,7 +124,7 @@ mig
 Mie
 .
 Mif##
-*custos
+*custosg
 =-
 sig
 .
@@ -173,7 +173,7 @@ miB
 mic
 miA
 mic
-*custos
+*custosd
 =-
 mid
 Mie
@@ -201,7 +201,7 @@ mig
 mif##
 Uig
 UiG
-*custos
+*custosG
 =-
 miG
 miF

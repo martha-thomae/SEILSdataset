@@ -20,7 +20,7 @@ sr
 Mr
 M:A
 mA
-*custos
+*custosG
 =-
 MG
 MB-
@@ -43,7 +43,7 @@ MG
 mD
 mD
 MA
-*custos
+*custosd
 =-
 mr
 Md
@@ -69,7 +69,7 @@ MF
 sE
 Sr
 Mr
-*custos
+*custosd
 =-
 Md
 Md
@@ -95,7 +95,7 @@ sC
 Mr
 Mc
 sc
-*custos
+*custosC
 =-
 mr
 mC
@@ -121,7 +121,7 @@ M:G
 mF
 ME
 sA
-*custos
+*custosC
 =-
 sr
 Mr

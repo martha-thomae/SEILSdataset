@@ -25,7 +25,7 @@ Mp:d
 Uic
 UiB
 Mic
-*custos
+*custosd
 =-
 sid
 Mid
@@ -51,7 +51,7 @@ mie-
 mif
 Mid
 Mie##
-*custos
+*custosf
 =-
 mir
 mif
@@ -81,7 +81,7 @@ Mir
 Mid
 Mie-
 Mid
-*custos
+*custosB
 =-
 siB
 .
@@ -116,7 +116,7 @@ mig
 Mid
 .
 mid
-*custos
+*custosd
 =-
 Mp:d
 .
@@ -148,7 +148,7 @@ mig
 s~if
 Mig
 Mig
-*custos
+*custosg
 =-
 sig
 sif
@@ -193,7 +193,7 @@ sia
 .
 Mig
 .
-*custos
+*custosd
 =-
 mid
 mie

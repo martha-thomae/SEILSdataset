@@ -21,7 +21,7 @@ Mf
 me
 Mf
 sf
-*custos
+*custosd
 =-
 Md
 sd
@@ -49,7 +49,7 @@ me
 md
 Mf
 MB
-*custos
+*custosf
 =-
 Mf
 Mf
@@ -75,7 +75,7 @@ mf
 mf
 Mf
 sf
-*custos
+*custosd
 =-
 Md
 Md
@@ -105,7 +105,7 @@ Ud
 Ue
 Uf
 Ug
-*custos
+*custosf
 =-
 Mf
 me
@@ -133,7 +133,7 @@ mf
 Mf
 M:e
 mf
-*custos
+*custosf
 =-
 Mf
 Mf
@@ -159,7 +159,7 @@ Mf
 Me
 M:f
 mf
-*custos
+*custose
 =-
 m:e
 Uf

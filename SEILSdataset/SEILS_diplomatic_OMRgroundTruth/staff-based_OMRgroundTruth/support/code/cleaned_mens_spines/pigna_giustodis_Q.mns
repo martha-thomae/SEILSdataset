@@ -21,7 +21,7 @@ see
 Mff
 Mcc
 Mcc
-*custos
+*custoscc
 =-
 Mcc
 Mcc
@@ -48,7 +48,7 @@ mcc##
 mdd
 M:dd
 mcc
-*custos
+*custoscc
 =-
 M:cc
 ma
@@ -74,7 +74,7 @@ ma
 mg
 mf
 me
-*custos
+*custosd
 =-
 Md
 md
@@ -101,7 +101,7 @@ Mdd
 mb
 Mg
 mf##
-*custos
+*custosg
 =-
 Mg
 Mg
@@ -126,7 +126,7 @@ m:b
 Ucc
 mdd
 mdd
-*custos
+*custosee
 =-
 Mee
 Mdd
@@ -155,7 +155,7 @@ Ma
 Mg
 Mr
 sr
-*custos
+*custosg
 =-
 Mr
 mr
@@ -184,7 +184,7 @@ Mr
 Mg
 m:e
 Uf
-*custos
+*custosg
 =-
 mg
 ma

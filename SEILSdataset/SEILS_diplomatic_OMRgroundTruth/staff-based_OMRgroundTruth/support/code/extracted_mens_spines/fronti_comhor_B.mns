@@ -38,7 +38,7 @@ mp:C
 .
 UiC
 miE
-*custos
+*custosF
 =-
 MiF
 SiC
@@ -98,7 +98,7 @@ miGG
 mp:AA
 .
 UiBB
-*custos
+*custosC
 =-
 siC
 .
@@ -165,7 +165,7 @@ siC
 .
 .
 .
-*custos
+*custosFF
 =-
 sir
 .
@@ -218,7 +218,7 @@ siG
 .
 .
 MiC
-*custos
+*custosF
 =-
 siF
 .
@@ -255,7 +255,7 @@ MiC
 .
 MiC
 .
-*custos
+*custosGG
 =-
 [siGG
 .

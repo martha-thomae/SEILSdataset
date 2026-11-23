@@ -57,7 +57,7 @@ Mir
 Mp:A
 .
 miA
-*custos
+*custosG
 =-
 MiG
 .
@@ -93,7 +93,7 @@ miD
 miD
 MiA
 .
-*custos
+*custosd
 =-
 mir
 Mid
@@ -143,7 +143,7 @@ Sir
 .
 .
 Mir
-*custos
+*custosd
 =-
 Mid
 Mid
@@ -192,7 +192,7 @@ Mic
 sic
 .
 .
-*custos
+*custosC
 =-
 mir
 miC
@@ -249,7 +249,7 @@ siA
 .
 .
 .
-*custos
+*custosC
 =-
 sir
 .

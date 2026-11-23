@@ -48,7 +48,7 @@ MiA
 .
 miA
 MiA
-*custos
+*custosF
 =-
 siF
 MiF
@@ -90,7 +90,7 @@ miA
 mp:E
 .
 UiE
-*custos
+*custosE
 =-
 miE
 miE
@@ -140,7 +140,7 @@ Mir
 MiF
 .
 .
-*custos
+*custosc
 =-
 mic
 miA
@@ -171,7 +171,7 @@ Mic
 .
 miA
 miB-
-*custos
+*custosG
 =-
 miG
 mp:F
@@ -235,7 +235,7 @@ mir
 miF
 .
 miF
-*custos
+*custosG
 =-
 miG
 miF
@@ -315,7 +315,7 @@ sir
 .
 .
 .
-*custos
+*custosA
 =-
 Mir
 Mp:A
@@ -358,7 +358,7 @@ miA
 MiA
 .
 miA
-*custos
+*custosA
 =-
 MiA
 .

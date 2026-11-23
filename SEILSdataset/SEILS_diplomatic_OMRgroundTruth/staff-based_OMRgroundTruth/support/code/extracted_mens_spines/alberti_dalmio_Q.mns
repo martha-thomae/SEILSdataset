@@ -53,7 +53,7 @@ sia
 .
 .
 .
-*custos
+*custosf
 =-
 Mir
 Mp:f##
@@ -94,7 +94,7 @@ mie
 Mia
 .
 mig
-*custos
+*custosf
 =-
 mir
 mif
@@ -134,7 +134,7 @@ sir
 sia
 .
 Mif
-*custos
+*custose
 =-
 Mie
 Mif
@@ -178,7 +178,7 @@ sir
 .
 .
 .
-*custos
+*custosc
 =-
 Mir
 .
@@ -220,7 +220,7 @@ Uia
 Uib
 Micc
 micc
-*custos
+*custoscc
 =-
 Micc
 .
@@ -261,7 +261,7 @@ sia
 mir
 mif
 mie
-*custos
+*custosd
 =-
 mid
 mie
@@ -295,7 +295,7 @@ Mic
 .
 mic
 mic
-*custos
+*custosd
 =-
 Mid
 .

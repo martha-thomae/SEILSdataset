@@ -16,7 +16,7 @@ mA
 m:G
 UF
 mE
-*custos
+*custosAA
 =-
 mAA
 mE
@@ -41,7 +41,7 @@ MA
 mA
 mA
 MG##
-*custos
+*custosA
 =-
 MA
 mr
@@ -65,7 +65,7 @@ UF
 mG
 mF
 ME
-*custos
+*custosA
 =-
 MA
 MAA
@@ -88,7 +88,7 @@ MC
 MAA
 sC
 sFF
-*custos
+*custosD
 =-
 Sr
 MD
@@ -111,7 +111,7 @@ mD
 m:C
 UBB
 UAA
-*custos
+*custosGG
 =-
 UGG
 UFF
@@ -136,7 +136,7 @@ sr
 M:FF
 mFF
 MFF
-*custos
+*custosFF
 =-
 mFF
 mFF

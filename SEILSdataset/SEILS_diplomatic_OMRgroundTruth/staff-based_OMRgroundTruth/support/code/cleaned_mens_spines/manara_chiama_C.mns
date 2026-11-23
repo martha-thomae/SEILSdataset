@@ -19,7 +19,7 @@ Mdd
 mcc##
 Mdd
 Mdd
-*custos
+*custosdd
 =-
 mr
 mdd
@@ -47,7 +47,7 @@ ma
 Mdd
 mcc
 sdd
-*custos
+*custosdd
 =-
 Sr
 sr
@@ -73,7 +73,7 @@ mdd
 mdd
 Mcc##
 Mdd
-*custos
+*custosdd
 =-
 Mr
 Mdd
@@ -99,7 +99,7 @@ mr
 mcc
 M:a
 mcc
-*custos
+*custosb
 =-
 m:b
 Ucc
@@ -124,7 +124,7 @@ mdd
 mdd
 Mcc##
 Mdd
-*custos
+*custosdd
 =-
 Mr
 mr
@@ -151,7 +151,7 @@ mr
 mdd
 mcc
 ma
-*custos
+*custosb
 =-
 Mb
 mcc
@@ -177,7 +177,7 @@ Mb
 mcc
 Mdd
 mcc
-*custos
+*custosff
 =-
 M:ff
 mee

@@ -37,7 +37,7 @@ miA
 .
 UiG
 UiF
-*custos
+*custosE
 =-
 miE
 .
@@ -70,7 +70,7 @@ siBB-
 .
 siAA
 .
-*custos
+*custosAA
 =-
 Lir
 .
@@ -118,7 +118,7 @@ Mp:C
 .
 UiD
 UiE
-*custos
+*custosF
 =-
 MiF
 .
@@ -159,7 +159,7 @@ Mp:FF
 .
 miGG
 .
-*custos
+*custosAA
 =-
 miAA
 UiGG
@@ -199,7 +199,7 @@ miA
 mp:F
 .
 UiG
-*custos
+*custosA
 =-
 miA
 miAA
@@ -246,7 +246,7 @@ mir
 miF
 miF
 miG
-*custos
+*custosF
 =-
 miF
 miD
@@ -313,7 +313,7 @@ Lir
 .
 .
 .
-*custos
+*custosD
 =-
 sir
 .
@@ -360,7 +360,7 @@ siAA
 .
 .
 .
-*custos
+*custosD
 =-
 Mir
 .

@@ -27,7 +27,7 @@ mp:F
 UiE
 miF
 miD
-*custos
+*custosC
 =-
 MiC
 miC
@@ -63,7 +63,7 @@ MiG
 .
 miD
 mid
-*custos
+*custosB
 =-
 UiB
 UiA
@@ -178,7 +178,7 @@ mid
 .
 miG
 .
-*custos
+*custosB
 =-
 mir
 .
@@ -206,7 +206,7 @@ UiF
 UiE
 UiD
 UiC
-*custos
+*custosD
 =-
 miD
 UiC
@@ -258,7 +258,7 @@ Uid
 Uic
 UiB
 UiA
-*custos
+*custosG
 =-
 MiG
 .
@@ -303,7 +303,7 @@ siE-
 MiBB
 siF
 MiF
-*custos
+*custosC
 =-
 siC
 .
@@ -358,7 +358,7 @@ Sp:D
 .
 .
 .
-*custos
+*custosd
 =-
 Sir
 .

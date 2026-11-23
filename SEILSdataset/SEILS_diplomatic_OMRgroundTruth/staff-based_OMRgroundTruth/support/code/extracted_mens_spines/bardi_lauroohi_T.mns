@@ -28,7 +28,7 @@ miG
 mp:A
 .
 UiA
-*custos
+*custosA
 =-
 miA
 miG
@@ -67,7 +67,7 @@ miB
 mp:A
 .
 UiG
-*custos
+*custosF
 =-
 miF##
 MiG
@@ -98,7 +98,7 @@ MiE
 MiD
 sir
 .
-*custos
+*custosD
 =-
 Mir
 MiD
@@ -131,7 +131,7 @@ Mp:G
 .
 .
 miA
-*custos
+*custosB
 =-
 MiB
 MiF
@@ -170,7 +170,7 @@ UiG
 miG
 miF##
 miG
-*custos
+*custosA
 =-
 MiA
 .
@@ -208,7 +208,7 @@ MiG
 .
 miG
 miE
-*custos
+*custosG
 =-
 MiG
 MiC

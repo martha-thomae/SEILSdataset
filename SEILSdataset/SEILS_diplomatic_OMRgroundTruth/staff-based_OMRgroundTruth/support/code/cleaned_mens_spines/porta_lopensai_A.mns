@@ -22,7 +22,7 @@ sr
 Mr
 mr
 mf
-*custos
+*custosg
 =-
 m:g
 Uf
@@ -48,7 +48,7 @@ ma
 Ug
 Uf
 mg
-*custos
+*custosa
 =-
 ma
 mr
@@ -74,7 +74,7 @@ mr
 Uf
 Ug
 ma
-*custos
+*custosf
 =-
 mf
 mf
@@ -100,7 +100,7 @@ uf
 Mg
 mf
 sg
-*custos
+*custosd
 =-
 sr
 Sd
@@ -125,7 +125,7 @@ mr
 ma
 ma
 ma
-*custos
+*custosf
 =-
 m:f
 Ug

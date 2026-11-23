@@ -19,7 +19,7 @@ Ma
 ma
 Ug##
 Uf##
-*custos
+*custosg
 =-
 mg##
 mg
@@ -45,7 +45,7 @@ Ma
 s:a
 Mcc##
 Mdd
-*custos
+*custosa
 =-
 ma
 Ma
@@ -74,7 +74,7 @@ ma
 mb##
 ma
 mg
-*custos
+*custosa
 =-
 ma
 mg
@@ -103,7 +103,7 @@ Ma
 ma
 Uf
 Ug
-*custos
+*custosa
 =-
 Ua
 Ub
@@ -128,7 +128,7 @@ M:a
 ma
 Mg
 *met(C)
-*custos
+*custosa
 =-
 Ma
 Mb
@@ -155,7 +155,7 @@ Mg
 Mcc
 ma
 md
-*custos
+*custosg
 =-
 Mg
 Ma

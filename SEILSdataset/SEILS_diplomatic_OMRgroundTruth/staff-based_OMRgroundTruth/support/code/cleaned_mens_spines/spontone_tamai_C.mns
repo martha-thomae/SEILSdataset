@@ -21,7 +21,7 @@ sb
 Mb
 sf
 Mf
-*custos
+*custosg
 =-
 mg
 m:cc
@@ -50,7 +50,7 @@ md
 mg
 mg
 ma
-*custos
+*custosf
 =-
 Mf
 Me
@@ -79,7 +79,7 @@ Mr
 Ma
 ma
 mcc
-*custos
+*custosb
 =-
 Mb
 sa
@@ -110,7 +110,7 @@ Ucc
 Ua
 Mb
 Ma
-*custos
+*custosb
 =-
 mb
 *met(3)
@@ -137,7 +137,7 @@ Ma
 Mg
 m:a
 Ub
-*custos
+*custoscc
 =-
 mcc
 ma
@@ -165,7 +165,7 @@ mr
 mf
 m:a
 Ub
-*custos
+*custoscc
 =-
 mcc
 mcc

@@ -26,7 +26,7 @@ Mib
 .
 .
 Mia
-*custos
+*custosg
 =-
 Mp:g
 .
@@ -78,7 +78,7 @@ Mp:g
 mig
 Mia
 .
-*custos
+*custosa
 =-
 mia
 mia
@@ -143,7 +143,7 @@ Micc
 .
 Mig
 .
-*custos
+*custosb
 =-
 mib
 mib
@@ -193,7 +193,7 @@ sia
 sir
 .
 .
-*custos
+*custosa
 =-
 Sir
 .
@@ -284,7 +284,7 @@ Mir
 sicc
 .
 Mif
-*custos
+*custosb
 =-
 Mib
 .

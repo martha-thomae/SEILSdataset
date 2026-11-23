@@ -21,7 +21,7 @@ Mdd
 mff
 Uee
 Udd
-*custos
+*custoscc
 =-
 mcc
 mdd
@@ -50,7 +50,7 @@ mdd
 mee
 mff
 sgg
-*custos
+*custoscc
 =-
 scc
 Lr
@@ -79,7 +79,7 @@ Mcc
 Mdd
 mb
 mb
-*custos
+*custoscc
 =-
 Mcc
 Ma
@@ -108,7 +108,7 @@ mg
 mg
 sa
 Mcc
-*custos
+*custosgg
 =-
 sr
 mr
@@ -136,7 +136,7 @@ Mcc
 Mcc
 sdd
 Mcc
-*custos
+*custosff
 =-
 mr
 mff
@@ -165,7 +165,7 @@ sdd
 sb
 Lr
 sr
-*custos
+*custosdd
 =-
 Mdd
 M:ff
@@ -191,7 +191,7 @@ Lr
 Mr
 mg
 ma
-*custos
+*custosb
 =-
 mb
 mcc

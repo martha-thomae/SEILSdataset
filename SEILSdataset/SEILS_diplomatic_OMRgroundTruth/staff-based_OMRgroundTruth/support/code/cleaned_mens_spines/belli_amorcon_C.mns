@@ -22,7 +22,7 @@ ma
 mb
 m:b
 Ub
-*custos
+*custosb
 =-
 mb
 mb
@@ -46,7 +46,7 @@ mcc
 Ma
 Mb##
 sr
-*custos
+*custosdd
 =-
 Mr
 Mdd
@@ -74,7 +74,7 @@ Me-
 Md
 Mb
 Mcc
-*custos
+*custosdd
 =-
 mdd
 ma
@@ -98,7 +98,7 @@ s~a
 Ma
 Mb##
 scc
-*custos
+*custosdd
 =-
 s~dd
 mb
@@ -125,7 +125,7 @@ scc
 sb
 Ma
 Mr
-*custos
+*custosb
 =-
 sr
 mb

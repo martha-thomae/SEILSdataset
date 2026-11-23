@@ -33,7 +33,7 @@ mie
 Mif
 sif
 .
-*custos
+*custosd
 =-
 Mid
 sid
@@ -97,7 +97,7 @@ Mif
 .
 MiB
 .
-*custos
+*custosf
 =-
 Mif
 .
@@ -130,7 +130,7 @@ mif
 Mif
 sif
 .
-*custos
+*custosd
 =-
 Mid
 Mid
@@ -180,7 +180,7 @@ Uid
 Uie
 Uif
 Uig
-*custos
+*custosf
 =-
 Mif
 .
@@ -217,7 +217,7 @@ Mif
 Mp:e
 .
 mif
-*custos
+*custosf
 =-
 Mif
 Mif
@@ -259,7 +259,7 @@ Mp:f
 .
 .
 mif
-*custos
+*custose
 =-
 .
 mp:e

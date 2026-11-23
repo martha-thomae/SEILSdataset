@@ -54,7 +54,7 @@ Sir
 Mir
 MiF
 MiD
-*custos
+*custosF
 =-
 MiF
 MiBB
@@ -97,7 +97,7 @@ miD
 .
 mp:C
 UiBB
-*custos
+*custosAA
 =-
 miAA
 miFF
@@ -149,7 +149,7 @@ MiG
 .
 Mir
 .
-*custos
+*custosC
 =-
 sir
 .
@@ -195,7 +195,7 @@ miF
 MiBB
 .
 MiC
-*custos
+*custosGG
 =-
 siGG
 .
@@ -283,7 +283,7 @@ UiBB
 miC
 miD
 .
-*custos
+*custosC
 =-
 MiC
 .
@@ -334,7 +334,7 @@ MiC
 Mir
 .
 .
-*custos
+*custosC
 =-
 mir
 .
@@ -398,7 +398,7 @@ MiC
 .
 MiAA
 .
-*custos
+*custosFF
 =-
 MiFF
 .

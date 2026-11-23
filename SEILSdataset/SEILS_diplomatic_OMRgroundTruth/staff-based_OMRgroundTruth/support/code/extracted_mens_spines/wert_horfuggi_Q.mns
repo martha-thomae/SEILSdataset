@@ -52,7 +52,7 @@ sid
 Mic
 Mic
 .
-*custos
+*custosc
 =-
 Mic
 Mp:A
@@ -95,7 +95,7 @@ miA
 miA
 Mic
 mic
-*custos
+*custosA
 =-
 mp:A
 .
@@ -145,7 +145,7 @@ UiG
 UiF
 MiG
 .
-*custos
+*custosF
 =-
 miF
 miF
@@ -188,7 +188,7 @@ Mic
 .
 mid
 mic
-*custos
+*custosA
 =-
 miA
 mp:c
@@ -231,7 +231,7 @@ miF
 miE
 miF
 miA
-*custos
+*custosF
 =-
 mp:F
 .
@@ -278,7 +278,7 @@ mir
 Mid
 .
 mie
-*custos
+*custosf
 =-
 Mif
 .
@@ -321,7 +321,7 @@ MiD
 mir
 MiD
 .
-*custos
+*custosG
 =-
 miG
 miF
@@ -361,7 +361,7 @@ Mic
 mir
 Mie
 .
-*custos
+*custosc
 =-
 Mic
 .

@@ -58,7 +58,7 @@ mir
 Mic
 .
 mif
-*custos
+*custosd
 =-
 Mid
 .
@@ -100,7 +100,7 @@ mir
 Mid
 .
 mid
-*custos
+*custosd
 =-
 Mid
 .
@@ -138,7 +138,7 @@ UiB
 UiA
 MiB
 MiA
-*custos
+*custosa
 =-
 Mia
 Mia
@@ -178,7 +178,7 @@ miB
 mic
 miB
 .
-*custos
+*custosA
 =-
 UiA
 UiB
@@ -227,7 +227,7 @@ Mie
 .
 Mie
 .
-*custos
+*custosc
 =-
 mic
 mic
@@ -265,7 +265,7 @@ miA
 sic
 .
 .
-*custos
+*custose
 =-
 sie
 .

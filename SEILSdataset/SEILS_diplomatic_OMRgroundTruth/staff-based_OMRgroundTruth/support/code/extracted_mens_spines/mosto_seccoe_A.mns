@@ -41,7 +41,7 @@ UiA
 mic
 Mic
 Mic
-*custos
+*custosc
 =-
 mir
 mic
@@ -87,7 +87,7 @@ Mie
 mid
 mp:c
 UiB
-*custos
+*custosA
 =-
 miA
 miG
@@ -130,7 +130,7 @@ sir
 .
 .
 .
-*custos
+*custosg
 =-
 mir
 mig
@@ -178,7 +178,7 @@ mia
 mif
 .
 mig
-*custos
+*custosa
 =-
 mia
 mig
@@ -225,7 +225,7 @@ Mif
 .
 mie
 mif
-*custos
+*custosf
 =-
 mif
 mp:f
@@ -264,7 +264,7 @@ Uid
 mie
 mif
 .
-*custos
+*custose
 =-
 Mie
 .
@@ -316,7 +316,7 @@ mic
 Mig
 .
 .
-*custos
+*custosc
 =-
 mic
 Mif
@@ -371,7 +371,7 @@ MiG
 .
 MiA
 .
-*custos
+*custosg
 =-
 mir
 .

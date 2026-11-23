@@ -20,7 +20,7 @@ UF
 UG
 sA
 sD
-*custos
+*custosG
 =-
 Mr
 MG
@@ -44,7 +44,7 @@ ME-
 MBB
 MF
 MD
-*custos
+*custosG
 =-
 MG
 ME-
@@ -68,7 +68,7 @@ mc
 mA
 MB
 MF
-*custos
+*custosD
 =-
 mr
 m:D
@@ -95,7 +95,7 @@ MA
 MF
 MD
 ME
-*custos
+*custosF
 =-
 sF
 MG
@@ -121,7 +121,7 @@ mr
 mF
 ME
 MD
-*custos
+*custosA
 =-
 mr
 mA

@@ -32,7 +32,7 @@ Mid
 sie
 .
 .
-*custos
+*custosf
 =-
 Mif
 .
@@ -73,7 +73,7 @@ MiA
 .
 Mid
 .
-*custos
+*custosc
 =-
 Mic
 .
@@ -118,7 +118,7 @@ Mif
 mif
 Mie
 .
-*custos
+*custose
 =-
 mie
 Mp:d
@@ -151,7 +151,7 @@ sia
 .
 Mia
 Mig
-*custos
+*custose
 =-
 sie
 .
@@ -188,7 +188,7 @@ mig
 Uig
 Uid
 mif
-*custos
+*custosf
 =-
 mif
 mie
@@ -214,7 +214,7 @@ mig
 mig
 mia
 mig
-*custos
+*custosa
 =-
 Mia
 .

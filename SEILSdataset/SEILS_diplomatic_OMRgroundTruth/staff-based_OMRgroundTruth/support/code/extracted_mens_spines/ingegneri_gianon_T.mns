@@ -46,7 +46,7 @@ sir
 sic
 .
 .
-*custos
+*custosB
 =-
 MiB
 .
@@ -84,7 +84,7 @@ MiG
 miC
 Mic
 .
-*custos
+*custosB
 =-
 miB
 miA
@@ -144,7 +144,7 @@ MiE
 MiF
 miE
 miF
-*custos
+*custosG
 =-
 miG
 mp:A
@@ -189,7 +189,7 @@ miB
 Mic
 .
 miB
-*custos
+*custose
 =-
 Mie
 .
@@ -237,7 +237,7 @@ miE
 MiF
 .
 MiD
-*custos
+*custosC
 =-
 mir
 MiC
@@ -281,7 +281,7 @@ MiG
 .
 Mir
 .
-*custos
+*custosB
 =-
 sir
 .

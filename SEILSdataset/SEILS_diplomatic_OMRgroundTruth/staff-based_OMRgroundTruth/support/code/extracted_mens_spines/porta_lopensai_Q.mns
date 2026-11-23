@@ -30,7 +30,7 @@ Uia
 mp:g
 .
 Uif
-*custos
+*custose
 =-
 mie-
 mid
@@ -63,7 +63,7 @@ mid
 mp:f
 .
 Uie
-*custos
+*custosd
 =-
 mid
 mic
@@ -104,7 +104,7 @@ sif
 .
 Mif
 .
-*custos
+*custosd
 =-
 sid
 .
@@ -175,7 +175,7 @@ Mir
 siB
 .
 MiB
-*custos
+*custosF
 =-
 Mp:F
 .
@@ -216,7 +216,7 @@ Sir
 .
 MiA
 .
-*custos
+*custosd
 =-
 mp:d
 .

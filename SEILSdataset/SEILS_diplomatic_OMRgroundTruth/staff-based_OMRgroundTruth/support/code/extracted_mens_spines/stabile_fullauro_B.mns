@@ -39,7 +39,7 @@ sir
 .
 miF
 miG
-*custos
+*custosA
 =-
 MiA
 .
@@ -102,7 +102,7 @@ Mic
 mic
 Mic
 .
-*custos
+*custosB
 =-
 miB
 miA
@@ -145,7 +145,7 @@ mic
 miB
 miA
 miA
-*custos
+*custosG
 =-
 MiG
 .
@@ -179,7 +179,7 @@ MiF
 .
 miG
 MiA
-*custos
+*custosG
 =-
 miG
 Mic
@@ -233,7 +233,7 @@ MiF
 .
 .
 miF
-*custos
+*custosF
 =-
 miF
 .
@@ -282,7 +282,7 @@ miG
 Mic
 mic
 miB
-*custos
+*custosc
 =-
 mp:c
 .

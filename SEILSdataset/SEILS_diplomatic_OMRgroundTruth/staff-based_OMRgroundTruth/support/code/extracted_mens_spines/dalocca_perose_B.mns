@@ -38,7 +38,7 @@ Uic
 miB
 miA
 .
-*custos
+*custosB
 =-
 siB
 .
@@ -115,7 +115,7 @@ MiF
 .
 MiG
 .
-*custos
+*custosD
 =-
 mp:D
 .
@@ -156,7 +156,7 @@ miA
 .
 miF
 .
-*custos
+*custosG
 =-
 MiG
 .
@@ -211,7 +211,7 @@ Mp:C
 miC
 miD
 miG
-*custos
+*custosD
 =-
 MiD
 miG
@@ -251,7 +251,7 @@ MiG
 .
 MiA
 .
-*custos
+*custosA
 =-
 siA
 .
@@ -311,7 +311,7 @@ spr
 .
 *M4/4
 *met(C)
-*custos
+*custosC
 =-
 Sir
 .
@@ -364,7 +364,7 @@ MiD
 .
 mir
 miE
-*custos
+*custosF
 =-
 MiF
 MiG

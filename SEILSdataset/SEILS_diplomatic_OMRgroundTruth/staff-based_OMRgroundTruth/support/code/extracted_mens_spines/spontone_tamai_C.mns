@@ -37,7 +37,7 @@ Mib
 sif
 .
 Mif
-*custos
+*custosg
 =-
 mig
 mp:cc
@@ -82,7 +82,7 @@ mid
 mig
 mig
 mia
-*custos
+*custosf
 =-
 Mif
 .
@@ -127,7 +127,7 @@ Mia
 .
 mia
 micc
-*custos
+*custosb
 =-
 Mib
 sia
@@ -185,7 +185,7 @@ Uia
 Mib
 .
 Mia
-*custos
+*custosb
 =-
 mib
 *met(3)
@@ -224,7 +224,7 @@ Mig
 mp:a
 .
 Uib
-*custos
+*custoscc
 =-
 micc
 mia
@@ -275,7 +275,7 @@ mp:a
 .
 .
 Uib
-*custos
+*custoscc
 =-
 micc
 micc

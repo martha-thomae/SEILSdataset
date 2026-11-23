@@ -17,7 +17,7 @@ sr
 Lr
 Lr
 Lr
-*custos
+*custosE
 =-
 Sr
 sr
@@ -44,7 +44,7 @@ MD
 sG
 M:C
 mBB
-*custos
+*custosC
 =-
 mC
 mD
@@ -70,7 +70,7 @@ mD
 mF
 mG
 MA
-*custos
+*custosA
 =-
 mA
 mB
@@ -96,7 +96,7 @@ mD
 mGG
 mGG
 sr
-*custos
+*custosBB
 =-
 mr
 mBB

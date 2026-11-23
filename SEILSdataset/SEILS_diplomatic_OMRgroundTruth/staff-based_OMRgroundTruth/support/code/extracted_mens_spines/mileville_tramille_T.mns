@@ -30,7 +30,7 @@ sid
 .
 Mic
 .
-*custos
+*custosc
 =-
 Mic
 Mid
@@ -67,7 +67,7 @@ mid
 mid
 Mie
 mif##
-*custos
+*custosf
 =-
 mif
 mig
@@ -108,7 +108,7 @@ sir
 .
 .
 .
-*custos
+*custosc
 =-
 sic
 .
@@ -170,7 +170,7 @@ MiG
 miG
 Mic
 .
-*custos
+*custosB
 =-
 UiB
 UiA
@@ -216,7 +216,7 @@ Mp:d
 Uic##
 UiB
 Mic
-*custos
+*custosd
 =-
 sid
 .
@@ -261,7 +261,7 @@ sir
 .
 mid
 mic
-*custos
+*custosd
 =-
 mid
 mie

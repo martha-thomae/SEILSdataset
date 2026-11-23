@@ -42,7 +42,7 @@ micc
 Mib
 .
 mia
-*custos
+*custoscc
 =-
 micc
 mp:b
@@ -72,7 +72,7 @@ Mia
 .
 sib
 .
-*custos
+*custosg
 =-
 Mir
 .
@@ -125,7 +125,7 @@ Mia
 .
 Mig
 .
-*custos
+*custosa
 =-
 Mir
 .
@@ -152,7 +152,7 @@ mie
 miee
 mp:dd
 Uiee
-*custos
+*custoscc
 =-
 micc
 micc
@@ -187,7 +187,7 @@ mig
 .
 mp:g
 Uif
-*custos
+*custosg
 =-
 mp:g
 Uia
@@ -234,7 +234,7 @@ Uia
 mib
 mig
 mia
-*custos
+*custosg
 =-
 Uig
 Uif
@@ -265,7 +265,7 @@ mir
 midd
 micc
 mib
-*custos
+*custosa
 =-
 Mia
 .

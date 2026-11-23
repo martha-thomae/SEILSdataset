@@ -18,7 +18,7 @@ Uf
 ma
 Mb
 Ma
-*custos
+*custosg
 =-
 M:g
 ma
@@ -46,7 +46,7 @@ Mcc
 M:g
 mg
 Ma
-*custos
+*custosa
 =-
 ma
 ma
@@ -75,7 +75,7 @@ Mcc
 mb##
 Mcc
 Mg
-*custos
+*custosb
 =-
 mb
 mb
@@ -103,7 +103,7 @@ Mcc
 scc
 sa
 sr
-*custos
+*custosa
 =-
 Sr
 Ma
@@ -134,7 +134,7 @@ Sr
 Mr
 scc
 Mf
-*custos
+*custosb
 =-
 Mb
 Ma

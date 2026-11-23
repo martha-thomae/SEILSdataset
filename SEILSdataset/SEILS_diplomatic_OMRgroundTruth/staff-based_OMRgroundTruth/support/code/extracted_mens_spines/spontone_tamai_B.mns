@@ -52,7 +52,7 @@ siC
 .
 .
 .
-*custos
+*custosD
 =-
 mp:D
 .
@@ -109,7 +109,7 @@ miBB
 MiGG
 .
 MiFF
-*custos
+*custosC
 =-
 Mir
 MiC
@@ -157,7 +157,7 @@ MiG
 .
 miF
 miE
-*custos
+*custosF
 =-
 Mp:F
 .
@@ -215,7 +215,7 @@ Mir
 Mp:C
 .
 miF
-*custos
+*custosBB
 =-
 MiBB
 MiEE

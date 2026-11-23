@@ -20,7 +20,7 @@ m:f
 ue
 ud
 me
-*custos
+*custosf
 =-
 Mf
 M:c
@@ -43,7 +43,7 @@ m:c
 Ud
 me
 me
-*custos
+*custosf
 =-
 Mf
 Se
@@ -73,7 +73,7 @@ Mr
 Md
 mc
 mA
-*custos
+*custosc
 =-
 Mc
 md
@@ -97,7 +97,7 @@ Ue
 Ud
 Me
 Mf
-*custos
+*custosc
 =-
 mc
 md
@@ -123,7 +123,7 @@ s:e
 Me
 Mg
 Mg
-*custos
+*custosf
 =-
 sf
 Me
@@ -150,7 +150,7 @@ Me
 sf
 mr
 me
-*custos
+*custosg
 =-
 sg
 Mg
@@ -177,7 +177,7 @@ se
 Mf
 md
 me
-*custos
+*custosf
 =-
 M:f
 Ue

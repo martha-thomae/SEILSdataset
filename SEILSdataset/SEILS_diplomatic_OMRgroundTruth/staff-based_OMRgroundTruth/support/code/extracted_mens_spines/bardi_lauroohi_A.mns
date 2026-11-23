@@ -28,7 +28,7 @@ mig
 mp:f##
 .
 Uif
-*custos
+*custosf
 =-
 mif
 mig
@@ -60,7 +60,7 @@ mid
 Mie-
 mid
 mif##
-*custos
+*custosf
 =-
 mif
 mig
@@ -92,7 +92,7 @@ mif
 mif
 mp:f
 Uif
-*custos
+*custosf
 =-
 mif
 mid
@@ -136,7 +136,7 @@ mir
 mif
 mie
 mie
-*custos
+*custosg
 =-
 mp:g
 .
@@ -192,7 +192,7 @@ miB
 mic
 mid
 .
-*custos
+*custose
 =-
 Mie-
 .

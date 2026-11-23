@@ -27,7 +27,7 @@ Mid
 .
 mif
 Mig
-*custos
+*custosg
 =-
 mig
 mig
@@ -72,7 +72,7 @@ mie
 mif
 Uie
 Uif
-*custos
+*custosg
 =-
 mig
 mic
@@ -108,7 +108,7 @@ Uia
 Uif
 Uig
 Uia
-*custos
+*custosb
 =-
 mib
 .
@@ -159,7 +159,7 @@ Uie
 mif
 mif
 mig
-*custos
+*custose
 =-
 Mie
 Mif##
@@ -203,7 +203,7 @@ Mia
 .
 Mir
 .
-*custos
+*custosa
 =-
 mir
 Uia
@@ -242,7 +242,7 @@ Mir
 midd
 midd
 midd
-*custos
+*custoscc
 =-
 Uicc##
 Uib##
@@ -280,7 +280,7 @@ Mia
 Mia
 Mif
 .
-*custos
+*custosa
 =-
 mia
 mig
@@ -317,7 +317,7 @@ Mif
 mir
 micc
 miee-
-*custos
+*custosdd
 =-
 midd
 mib

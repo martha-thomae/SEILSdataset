@@ -18,7 +18,7 @@ mD
 mGG
 MD
 MBB
-*custos
+*custosC
 =-
 mC
 mC
@@ -46,7 +46,7 @@ mr
 mAA
 mBB
 mAA
-*custos
+*custosBB
 =-
 mBB
 mC
@@ -73,7 +73,7 @@ sFF
 Sr
 Mr
 MD
-*custos
+*custosC
 =-
 mC
 mBB
@@ -98,7 +98,7 @@ mC
 m:GG
 UGG
 mGG
-*custos
+*custosD
 =-
 sD
 sGG
@@ -125,7 +125,7 @@ MA
 m:AA
 UBB
 mC
-*custos
+*custosGG
 =-
 m:GG
 UGG
