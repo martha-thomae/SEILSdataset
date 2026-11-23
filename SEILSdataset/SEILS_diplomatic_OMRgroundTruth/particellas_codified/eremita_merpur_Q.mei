@@ -111,7 +111,7 @@
                                     </note>
                                     <note xml:id="note-L30F1" dur="fusa" oct="3" pname="a" />
                                     <note xml:id="note-L31F1" dur="fusa" oct="3" pname="g" />
-                                    <custos pname="g" oct="3" />
+                                    <custos pname="a" oct="3" />
                                 </layer>
                             </staff>
                         </measure>

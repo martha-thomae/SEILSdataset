@@ -25,7 +25,7 @@ mp:f	du-
 uie	.
 uid	.
 mie	.
-*custos	*
+*custosf	*
 =-	=-
 Mif	ce,
 Mp:c	no-
@@ -54,7 +54,7 @@ mp:c	vã
 Uid	scher-
 mie	zã
 mie	doin
-*custos	*
+*custosf	*
 =-	=-
 Mif	sie-
 .	.
@@ -129,7 +129,7 @@ Mid	Per-
 .	.
 mic	ch'io
 miA	co-
-*custos	*
+*custosc	*
 =-	=-
 Mic	sì
 .	.
@@ -169,7 +169,7 @@ Uid	.
 Mie	.
 Mif	go
 .	.
-*custos	*
+*custosc	*
 =-	=-
 mic	o-
 mid	ue
@@ -207,7 +207,7 @@ Mie	Nè
 .	.
 Mig	strin-
 Mig	goi
-*custos	*
+*custosf	*
 =-	=-
 sif	ra-
 Mie	mi,
@@ -246,7 +246,7 @@ Mie	.
 sif	ro.
 mir	.
 mie	Ne
-*custos	*
+*custosg	*
 =-	=-
 sig	strin-
 .	.
@@ -290,7 +290,7 @@ sie	che
 Mif	co
 mid	tã-
 mie	toho-
-*custos	*
+*custosf	*
 =-	=-
 Mp:f	no-
 .	.
