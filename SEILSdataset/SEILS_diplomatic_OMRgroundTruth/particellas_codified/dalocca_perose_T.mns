@@ -28,7 +28,7 @@ uiB	.
 mic##	.
 Mid	te,
 .	.
-*custos	*
+*custosf	*
 =-	=-
 mif	Di
 mp:d	lau-
@@ -85,7 +85,7 @@ mic	fa-
 Mid	ce-
 .	.
 .	.
-*custos	*
+*custosc	*
 =-	=-
 Mic	a
 .	.
@@ -136,7 +136,7 @@ miB	Nel
 miG	mon-
 mic	gi-
 .	.
-*custos	*
+*custosB	*
 =-	=-
 miB	bel
 .	.
@@ -182,7 +182,7 @@ miA	de,
 mic	Vi
 .	.
 miB	se
-*custos	*
+*custosd	*
 =-	=-
 mp:d	tor-
 .	.
@@ -217,7 +217,7 @@ Mid	tru-
 sid	i
 .	.
 .	.
-*custos	*
+*custosG	*
 =-	=-
 mir	.
 miG	Io
@@ -267,7 +267,7 @@ Mig	fal-
 .	.
 mif	so,
 mic	e'l
-*custos	*
+*custosd	*
 =-	=-
 Mid	fal-
 mic	so,
@@ -322,7 +322,7 @@ mp:B	toar-
 UiB	si
 miG	d'A-
 mid	mor,
-*custos	*
+*custosf	*
 =-	=-
 mif	E
 mid	quã-
@@ -361,7 +361,7 @@ mif	quã-
 mp:f	toar-
 .	.
 Uif	si
-*custos	*
+*custosg	*
 =-	=-
 mig	d'A-
 mia	mor,

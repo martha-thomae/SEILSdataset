@@ -29,7 +29,7 @@ MiF	ce
 Mp:G	no-
 .	.
 miC	ueher-
-*custos	*
+*custosF	*
 =-	=-
 miF	bet-
 miC	te,e
@@ -65,7 +65,7 @@ MiC	E
 mp:E	van
 .	.
 UiF	scher-
-*custos	*
+*custosG	*
 =-	=-
 miG	zan-
 miG	doin-
@@ -109,7 +109,7 @@ Mic	Per
 .	.
 mid	ch'io
 mid	co-
-*custos	*
+*custosc	*
 =-	=-
 mic	sì
 miA	non
@@ -152,7 +152,7 @@ sid	lo-
 Mid	ro
 .	.
 .	.
-*custos	*
+*custosd	*
 =-	=-
 Mp:d	Scor-
 .	.
@@ -197,7 +197,7 @@ miG	Nè
 siB	strin-
 .	.
 MiB	goi
-*custos	*
+*custosA	*
 =-	=-
 siA	ra-
 MiA	mi,
@@ -236,7 +236,7 @@ MiA	ro,
 sic	che
 .	.
 MiA	co
-*custos	*
+*custosB	*
 =-	=-
 MiB	tan-
 .	.
@@ -276,7 +276,7 @@ siG	no-
 MiG	ro,
 siA	che
 .	.
-*custos	*
+*custosA	*
 =-	=-
 MiA	co
 MiF	tan-

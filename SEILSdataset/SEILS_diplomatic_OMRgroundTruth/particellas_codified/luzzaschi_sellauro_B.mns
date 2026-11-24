@@ -35,7 +35,7 @@ miE	.
 miF	.
 MiG	.
 .	.
-*custos	*
+*custosD	*
 =-	=-
 miD	glia
 miD	non
@@ -128,7 +128,7 @@ MiE	fred-
 miG	da
 miG	sta-
 MiD	giõ
-*custos	*
+*custosF	*
 =-	=-
 miF	fo-
 UiE	.
@@ -190,7 +190,7 @@ Mir	.
 MiG	On-
 siG	d'è
 .	.
-*custos	*
+*custosG	*
 =-	=-
 mir	.
 miG	che'l
@@ -280,7 +280,7 @@ Lir	.
 .	.
 .	.
 .	.
-*custos	*
+*custosA	*
 =-	=-
 Sir	.
 .	.
@@ -368,7 +368,7 @@ Mir	.
 .	.
 mir	.
 miC	Eà
-*custos	*
+*custosC	*
 =-	=-
 mp:C	glial-
 UiD	tri
@@ -405,7 +405,7 @@ sir	.
 .	.
 .	.
 .	.
-*custos	*
+*custosG	*
 =-	=-
 siG	ver-
 .	.

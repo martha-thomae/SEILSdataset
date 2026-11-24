@@ -25,7 +25,7 @@ Mp:d	mia
 Uic	spe-
 UiB	.
 Mic	.
-*custos	*
+*custosd	*
 =-	=-
 sid	ne,
 Mid	E
@@ -51,7 +51,7 @@ mie-	.
 mif	.
 Mid	.
 Mie##	.
-*custos	*
+*custosf	*
 =-	=-
 mir	.
 mif	Re-
@@ -81,7 +81,7 @@ Mir	.
 Mid	Ma
 Mie-	las-
 Mid	so
-*custos	*
+*custosB	*
 =-	=-
 siB	co-
 .	.
@@ -116,7 +116,7 @@ mig	che
 Mid	ques-
 .	.
 mid	to
-*custos	*
+*custosd	*
 =-	=-
 Mp:d	lau-
 .	.
@@ -148,7 +148,7 @@ mig	.
 s~if	.
 Mig	.
 Mig	Al-
-*custos	*
+*custosg	*
 =-	=-
 sig	trui
 sif	poi
@@ -193,7 +193,7 @@ sia	.
 .	.
 Mig	do,
 .	.
-*custos	*
+*custosd	*
 =-	=-
 mid	dia
 mie	gio-
