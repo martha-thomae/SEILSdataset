@@ -1,11 +1,11 @@
 # SEILSdataset-OMR-StaffLevel-Refined
 
-This is a fork of the [SEILS dataset](https://github.com/SEILSdataset/SEILSdataset) that **contains _only_ its OMR resources and expands them**. The original repo contains both OMR and analytical resources for 30 madrigals, which are written in 5 partbooks (for a total of 150 particellas). 
+This repository is a fork of the [SEILS dataset](https://github.com/SEILSdataset/SEILSdataset) that retains its original OMR-related resources and extends them with additional data and processing for staff-level Optical Music Recognition (OMR). The original repository contains both OMR-related and analytical resources for 30 madrigals, each represented in five partbooks (150 particellas in total).
 
-**This fork focuses only on the OMR resources, keeping the original ones and expanding them for their use in a holistic staff-level img2sequence OMR model.**
+This fork focuses exclusively on the OMR-related resources. In addition to preserving the original OMR ground truth, it introduces staff-level score images and corresponding Humdrum \*\*mens encodings, specifically processed to facilitate training holistic staff-level image-to-sequence OMR models.
 
 The information is distributed into two folders:
-- The folder [`SEILS_diplomatic_OMRgroundTruth`](./SEILS_diplomatic_OMRgroundTruth) contains the **original ground truth OMR files from the SEILS dataset** repo (it has not been altered). It is structured in the following subfolders:
+- The folder [`SEILS_diplomatic_OMRgroundTruth`](./SEILS_diplomatic_OMRgroundTruth) contains the original OMR-related resources from the SEILS dataset repository, preserved without modification. It is structured in the following subfolders:
   - `choral`: the thirty madrigals are encoded as chorales and saved into `MEI` (30 files) and Humdrum `**mens` (30 files)
   - `converters`: scripts used to transform the Humdrum `**mens` files (contained in the `particellas_codified` folder) into `agnostic` and `semantic` encodings—very useful formats in OMR
   - `particellas_OMRgroundTruth`: `agnostic` and `semantic` files encoding the 150 particellas (i.e., 5 parts/voices for 30 madrigals), these files were generated using the `converter` scripts over the Humdrum `**mens` files in the `particellas_codified` folder
@@ -20,10 +20,17 @@ The information is distributed into two folders:
   The agnostic and semantic encodings plus the images of the 150 particellas are the resources useful for OMR.
 
 
-- The folder [`staff-based_OMRgroundTruth`](./staff-based_OMRgroundTruth) contains the **new files** (i.e., the original contributions) of this repo. This folder is meant to provide the ready-to-use ground truth for an image2seq model that takes as input individual staff-region images and outputs the sequence of music symbols contained in it. Therefore, it provides:
+- The folder [`staff-based_OMRgroundTruth`](./staff-based_OMRgroundTruth) contains the **new files** (i.e., the original contributions) of this repository. This folder is meant to provide the ready-to-use ground truth for an image2seq model that takes as input individual staff-region images and outputs the sequence of music symbols contained in it. Therefore, it provides:
   - Staff-region images: The regions of the individual staves of the full collection of images of the SEILS dataset. These were manually annotated using label-studio; for more details, consult the ["A) Generating the images"](./staff-based_OMRgroundTruth#a-generating-the-images) section in the `staff-based_OMRgroundTruth` README.
-  - Staff-region encoding: The Humdrum \*\*mens encoding of the music symbols in the staff regions. These files were generated from the particellas found in the original SEILS dataset repo (folder [`particellas_codified`](./SEILS_diplomatic_OMRgroundTruth/particellas_codified)). The \*\*mens particellas were segmented into staves, cleaned-up to filter out non-OMR-related information, and subtokenized. For more details, see the ["B) Generating the sub-tokenized **mens encodings"](./staff-based_OMRgroundTruth#b-generating-the-sub-tokenized-mens-encodings) section in the `staff-based_OMRgroundTruth` README.
+  - Staff-region encoding: The Humdrum \*\*mens encodings corresponding to the individual staff regions. These files were derived from the original \*\*mens particellas in [`particellas_codified`](./SEILS_diplomatic_OMRgroundTruth/particellas_codified) and subsequently processed to:
+    - Segment the original encodings into individual staves.
+    - Remove information that is not relevant to the OMR task.
+    - Subtokenize the encodings to obtain the desired representation of the musical symbols.
+    For more details, see the ["B) Generating the sub-tokenized **mens encodings"](./staff-based_OMRgroundTruth#b-generating-the-sub-tokenized-mens-encodings) section in the `staff-based_OMRgroundTruth` README.
+
+    The resulting files provide staff-level ground truth corresponding to the staff-region images and are intended for direct use in staff-level image-to-sequence OMR models.
  
-The original contributions of the present repository allows for training right away a holistic staff-level OMR model using the staff-region images and the Humdrum \*\*mens files (or the sub-tokenized Humdrum \*\*mens files, depending on your preference).
+The additional staff-level resources of this repository are intended to facilitate the training and application of holistic staff-level Optical Music Recognition (OMR). The repository provides both the visual input (staff-region images) and the corresponding symbolic ground truth (Humdrum \*\*mens encodings or their subtokenization, depending on the researcher's preference), allowing researchers to train and evaluate OMR models without having to perform the staff-level segmentation and symbolic-data preprocessing themselves.
+
 
 Please consult the original [SEILS dataset](https://github.com/SEILSdataset/SEILSdataset) repository to know more about the original dataset, the pieces and composers included in it, the dataset intended use for OMR and for music analysis (and digital editions), and related publications.
