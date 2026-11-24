@@ -15,18 +15,21 @@ The information is distributed into two folders:
 
   The workflow to get the `agnostic` and `semantic` encodings useful for OMR can therefore be summarised as: 
 
-  `choral` (MEI & mens) -> `particellas_codified` (MEI & mens) -> `particellas_OMRgroundTruth` (agnostic & semantic), with the help of the `converters`
+  `choral` (MEI & mens) **-\>** `particellas_codified` (MEI & mens) **-\>** `particellas_OMRgroundTruth` (agnostic & semantic), with the help of the `converters`
 
   The `agnostic` and `semantic` encodings, together with the images of the 150 particellas, are the resources from the original repository relevant to OMR.
 
 - The folder [`staff-based_OMRgroundTruth`](./staff-based_OMRgroundTruth) contains the new resources introduced in this repository. It is intended to provide ready-to-use ground truth for image-to-sequence models that take as input individual staff-region images and output the sequence of music symbols contained in them. It contains:
-  - **Staff-region images:** Images corresponding to the individual staff regions, obtained by segmenting the full-page images of the SEILS dataset. These regions were manually annotated using Label Studio. For more details, consult the ["A) Generating the images"](./staff-based_OMRgroundTruth#a-generating-the-images) section in the `staff-based_OMRgroundTruth` README.
+  - **Staff-region images:** Images corresponding to the individual staff regions, obtained by segmenting the full-page images of the SEILS dataset. These regions were manually annotated using Label Studio.
+    
+    **-\>**  **For more details**, consult the ["A) Generating the images"](./staff-based_OMRgroundTruth#a-generating-the-images) section in the `staff-based_OMRgroundTruth` README.
+    
   - **Staff-region encoding:** Humdrum `**mens` encodings corresponding to the individual staff regions. These files were derived from the original `**mens` particellas in [`particellas_codified`](./SEILS_diplomatic_OMRgroundTruth/particellas_codified) and subsequently processed to:
     - Segment the original encodings into individual staves.
     - Remove information from the original encodings that is not relevant for the OMR task.
     - Subtokenize the encodings to obtain the desired representation of the musical symbols.
     
-    For more details, see the ["B) Generating the sub-tokenized \*\*mens encodings"](./staff-based_OMRgroundTruth#b-generating-the-sub-tokenized-mens-encodings) section in the `staff-based_OMRgroundTruth` README.
+    **-\>**  **For more details**, see the ["B) Generating the sub-tokenized \*\*mens encodings"](./staff-based_OMRgroundTruth#b-generating-the-sub-tokenized-mens-encodings) section in the `staff-based_OMRgroundTruth` README.
 
     The resulting files provide staff-level ground truth corresponding to the staff-region images and are intended for direct use in staff-level image-to-sequence OMR models.
  
