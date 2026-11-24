@@ -38,18 +38,18 @@ Details on each of the fours stages, follow below.
 
 [`extract_mens_spines.sh`](./code/extract_mens_spines.sh) – Bash script that extracts the `**mens` spine from each Humdrum mensural notation file (`.mns`) in the [`particellas_codified`](../../particellas_codified) folder. 
 
-Each input file contains two spines corresponding to a given choral voice: one encoding the music (`**mens`) and another encoding the lyrics (`**text`). The script extracts the musical spine alone (`**mens`)---discarding the lyrics spine---and saves the resulting files in [`extracted_mens_spines`](./code/extracted_mens_spines), preserving their original filenames.
+Each input file contains two spines corresponding to a given choral voice: one encoding the music (`**mens`) and another encoding the lyrics (`**text`). The script extracts the musical spine alone (`**mens`)—discarding the lyrics spine—and saves the resulting files in [`code/extracted_mens_spines`](./code/extracted_mens_spines), preserving their original filenames.
 
   - **Input:** Humdrum `.mns` files in `particellas_codified`.
-  - **Output:** Files containing only the `**mens` spine, stored in `extracted_mens_spines`.
+  - **Output:** Files containing only the `**mens` spine, stored in `code/extracted_mens_spines`.
 
 
 ### 2. Cleaning of `**mens` spines
 
 [`clean-mns.sh`](./code/clean-mns.sh) – Bash script that cleans the extracted `**mens` spines by removing tokens and token characters that are not relevant to the OMR process.
   
-  - **Input:** Files in `extracted_mens_spines`.
-  - **Output:** Cleaned files stored in `cleaned_mens_spines`.
+  - **Input:** Files in `code/extracted_mens_spines`.
+  - **Output:** Cleaned files stored in `code/cleaned_mens_spines`.
 
 The cleaning process removes the following elements:
 
@@ -81,8 +81,8 @@ The following table lists the commands used for cleaning and describes their res
 
 Each input file contains the cleaned `**mens` spine for a single choral voice. Staff breaks are indicated by the `=-` token, which the script uses to identify the boundaries between successive staves.
 
-- **Input:** Cleaned `**mens` spines in `cleaned_mens_spines`.
-- **Output:** Individual staff-based `**mens` segments, stored in `staff_segmented_mens`.
+- **Input:** Cleaned `**mens` spines in `code/cleaned_mens_spines`.
+- **Output:** Individual staff-based `**mens` segments, stored in `code/staff_segmented_mens`.
 
 
 ### 4. Sub-tokenization
@@ -91,8 +91,8 @@ Each input file contains the cleaned `**mens` spine for a single choral voice. S
 
 For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its constituent elements: the ligature start marker (`[`), the semibrevis note shape (`s`), the coloration marker (`~`), the pitch (`g`), and the accidental (`#`). This decomposition reduces the vocabulary size that the OMR model needs to handle.
 
-- **Input:** Staff-segmented `**mens` files in `staff_segmented_mens`.
-- **Output:** Sub-tokenized, staff-segmented `**mens` files, stored in `subtokenized_staff_segmented_mens`.
+- **Input:** Staff-segmented `**mens` files in `code/staff_segmented_mens`.
+- **Output:** Sub-tokenized, staff-segmented `**mens` files, stored in `code/subtokenized_staff_segmented_mens`.
 
 
 
