@@ -31,7 +31,7 @@ miA	Al-
 mp:d	cun
 .	.
 Uid	de
-*custos	*
+*custosd	*
 =-	=-
 mid	pre-
 mid	gi
@@ -60,7 +60,7 @@ miB##	lo-
 Mic	ri-
 MiA	to,
 .	.
-*custos	*
+*custosB	*
 =-	=-
 mir	.
 miB	E
@@ -92,7 +92,7 @@ mic	d'om-
 mic	brae
 mp:d	col
 Uid	soa-
-*custos	*
+*custosd	*
 =-	=-
 mid	ve
 miA	o-
@@ -132,7 +132,7 @@ miB	si-
 Mic	dio-
 .	.
 MiF	sa
-*custos	*
+*custosF	*
 =-	=-
 mir	.
 miF	in
@@ -176,7 +176,7 @@ siB##	de,
 .	.
 Mic	O
 .	.
-*custos	*
+*custosB	*
 =-	=-
 miB	pian-
 miA	ta
@@ -215,7 +215,7 @@ MiA	ri-
 .	.
 miG	ta
 miG	bel-
-*custos	*
+*custosF	*
 =-	=-
 MiF	lez-
 .	.

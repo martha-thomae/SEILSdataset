@@ -29,7 +29,7 @@ miA	dal
 miB##	co-
 UiA	.
 UiG	.
-*custos	*
+*custosA	*
 =-	=-
 siA	.
 .	.
@@ -63,7 +63,7 @@ miA	il
 miG	lau-
 miA	.
 .	.
-*custos	*
+*custosB	*
 =-	=-
 miB	.
 mic	.
@@ -114,7 +114,7 @@ MiA	gia
 miA	tu
 UiF	vi
 UiF	piã-
-*custos	*
+*custosE	*
 =-	=-
 miE	tas-
 miF	tiA-
@@ -152,7 +152,7 @@ miC	to,
 mic	Che
 mp:B	quel
 Uic	che
-*custos	*
+*custosA	*
 =-	=-
 miA	l'ha
 miG	ra-
@@ -180,7 +180,7 @@ siA	ni-
 .	.
 MiG##	.
 MiA	to?
-*custos	*
+*custosc	*
 =-	=-
 mir	.
 mic	Ma
@@ -226,7 +226,7 @@ MiA	ru-
 siG	ba-
 .	.
 .	.
-*custos	*
+*custosc	*
 =-	=-
 sic	to
 .	.
@@ -266,7 +266,7 @@ MiB	sei,
 mir	.
 miG	tu
 mid	sei,
-*custos	*
+*custosD	*
 =-	=-
 miD	Sol
 .	.

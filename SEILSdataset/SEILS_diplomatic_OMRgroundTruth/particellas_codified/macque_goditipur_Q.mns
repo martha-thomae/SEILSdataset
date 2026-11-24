@@ -24,7 +24,7 @@ UiG	di-
 UiG	ti
 miF##	pur
 miF	no-
-*custos	*
+*custosG	*
 =-	=-
 UiG	uo
 UiA	.
@@ -63,7 +63,7 @@ UiG	ven-
 UiA	.
 UiB	.
 Uic	.
-*custos	*
+*custosd	*
 =-	=-
 Uid	.
 Uie	.
@@ -120,7 +120,7 @@ UiB	.
 Uic	.
 Uid	.
 UiB	.
-*custos	*
+*custosc	*
 =-	=-
 mic	.
 .	.
@@ -176,7 +176,7 @@ UiE	.
 UiD	.
 UiE	.
 UiF	.
-*custos	*
+*custosG	*
 =-	=-
 miG	.
 .	.
@@ -226,7 +226,7 @@ Sir	.
 .	.
 .	.
 .	.
-*custos	*
+*custosf	*
 =-	=-
 sir	.
 .	.
@@ -270,7 +270,7 @@ mic	doan-
 MiB##	co
 Mic	io,
 .	.
-*custos	*
+*custosc	*
 =-	=-
 Mir	.
 .	.
@@ -318,7 +318,7 @@ mid	non
 mic	sia
 miA	più
 .	.
-*custos	*
+*custosB	*
 =-	=-
 mp:B	mi-
 .	.
