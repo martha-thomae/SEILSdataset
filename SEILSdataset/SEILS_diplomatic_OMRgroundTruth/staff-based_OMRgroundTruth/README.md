@@ -8,7 +8,7 @@ The resources related to the images are in the [`images`](./images) folder.
 
 ### 1. Particellas PNG files
 
-The PDFs from [`particellas_original`](../../particellas_original) folder have been converted into PNGs. Most of them had a size of 1200 x 813 pixels, except for a few with size of 2550 x 3300 pixels. These few had extra white areas on top and bottom of the image. We trimmed those using ImageMagick (`magick "$file" -trim`), resulting in an image size of 2550 x 1728 pixels. Then we resized these images to match the 1200 width of the rest of the images (`magick "$file" -resize 1200x`). The resulting PNGs are stored in [`images/particellas_PNGs`](./images/particellas_PNGs).
+The PDFs from [`particellas_original`](../particellas_original) folder have been converted into PNGs. Most of them had a size of 1200 x 813 pixels, except for a few with size of 2550 x 3300 pixels. These few had extra white areas on top and bottom of the image. We trimmed those using ImageMagick (`magick "$file" -trim`), resulting in an image size of 2550 x 1728 pixels. Then we resized these images to match the 1200 width of the rest of the images (`magick "$file" -resize 1200x`). The resulting PNGs are stored in [`images/particellas_PNGs`](./images/particellas_PNGs).
 
 ### 2. Staff regions
 
@@ -17,7 +17,7 @@ The PNGs generated in the previous step were uploaded into [Label Studio](https:
 
 ## B) Generating the sub-tokenized \*\*mens encodings
 
-The workflow for generating sub-tokenized mensural notation encodings from the original Humdrum mensural notation files of the particellas (stored in the [`particellas_codified`](../../particellas_codified) folder) consists of four stages:
+The workflow for generating sub-tokenized mensural notation encodings from the original Humdrum mensural notation files of the particellas (stored in the [`particellas_codified`](../particellas_codified) folder) consists of four stages:
 
 **Extraction → Cleaning → Staff segmentation → Sub-tokenization**
 
@@ -36,7 +36,7 @@ Details on each of the fours stages, follow below.
 
 ### 1. Extraction of `**mens` spines
 
-[`extract_mens_spines.sh`](./code/extract_mens_spines.sh) – Bash script that extracts the `**mens` spine from each Humdrum mensural notation file (`.mns`) in the [`particellas_codified`](../../particellas_codified) folder. 
+[`extract_mens_spines.sh`](./code/extract_mens_spines.sh) – Bash script that extracts the `**mens` spine from each Humdrum mensural notation file (`.mns`) in the [`particellas_codified`](../particellas_codified) folder. 
 
 Each input file contains two spines corresponding to a given choral voice: one encoding the music (`**mens`) and another encoding the lyrics (`**text`). The script extracts the musical spine alone (`**mens`)—discarding the lyrics spine—and saves the resulting files in [`code/extracted_mens_spines`](./code/extracted_mens_spines), preserving their original filenames.
 
