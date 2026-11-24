@@ -4,11 +4,11 @@
 
 ### 1. Particellas PNG files
 
-The PDFs from [`particellas_original`](../../particellas_original) folder have been converted into PNGs. Most of them had a size of 1200 x 813 pixels, except for a few with size of 2550 x 3300 pixels. These few had extra white areas on top and bottom of the image. We trimmed those using ImageMagick (`magick "$file" -trim`), resulting in an image size of 2550 x 1728 pixels. Then we resized these images to match the 1200 width of the rest of the images (`magick "$file" -resize 1200x`). The resulting PNGs are stored in [`particellas_PNGs`](./particellas_PNGs).
+The PDFs from [`particellas_original`](../../particellas_original) folder have been converted into PNGs. Most of them had a size of 1200 x 813 pixels, except for a few with size of 2550 x 3300 pixels. These few had extra white areas on top and bottom of the image. We trimmed those using ImageMagick (`magick "$file" -trim`), resulting in an image size of 2550 x 1728 pixels. Then we resized these images to match the 1200 width of the rest of the images (`magick "$file" -resize 1200x`). The resulting PNGs are stored in [`particellas_PNGs`](./images/particellas_PNGs).
 
 ### 2. Staff regions
 
-The PNGs generated in the previous step were uploaded into [Label Studio](https://labelstud.io/quick-start/) to annotate their individual staff regions. The results of these annotations are stored in ...
+The PNGs generated in the previous step were uploaded into [Label Studio](https://labelstud.io/quick-start/) to annotate their individual staff regions. The results of these annotations are stored in [staff-regions](./images/staff-regions).
 
 
 ## B) Generating the sub-tokenized \*\*mens encodings
@@ -21,9 +21,9 @@ Each stage is performed by a dedicated Bash or Python script. The output of each
 
 ### 1. Extraction of `**mens` spines
 
-[`extract_mens_spines.sh`](./extract_mens_spines.sh) – Bash script that extracts the `**mens` spine from each Humdrum mensural notation file (`.mns`) in the [`particellas_codified`](../../particellas_codified) folder. 
+[`extract_mens_spines.sh`](./code/extract_mens_spines.sh) – Bash script that extracts the `**mens` spine from each Humdrum mensural notation file (`.mns`) in the [`particellas_codified`](../../particellas_codified) folder. 
 
-Each input file contains two spines corresponding to a given choral voice: one encoding the music (`**mens`) and another encoding the lyrics (`**text`). The script extracts the musical spine alone (`**mens`)---discarding the lyrics spine---and saves the resulting files in [`extracted_mens_spines`](./extracted_mens_spines), preserving their original filenames.
+Each input file contains two spines corresponding to a given choral voice: one encoding the music (`**mens`) and another encoding the lyrics (`**text`). The script extracts the musical spine alone (`**mens`)---discarding the lyrics spine---and saves the resulting files in [`extracted_mens_spines`](./code/extracted_mens_spines), preserving their original filenames.
 
   - **Input:** Humdrum `.mns` files in `particellas_codified`.
   - **Output:** Files containing only the `**mens` spine, stored in `extracted_mens_spines`.
@@ -31,7 +31,7 @@ Each input file contains two spines corresponding to a given choral voice: one e
 
 ### 2. Cleaning of `**mens` spines
 
-[`clean-mns.sh`](./clean-mns.sh) – Bash script that cleans the extracted `**mens` spines by removing tokens and token characters that are not relevant to the OMR process.
+[`clean-mns.sh`](./code/clean-mns.sh) – Bash script that cleans the extracted `**mens` spines by removing tokens and token characters that are not relevant to the OMR process.
   
   - **Input:** Files in `extracted_mens_spines`.
   - **Output:** Cleaned files stored in `cleaned_mens_spines`.
@@ -62,7 +62,7 @@ The following table lists the commands used for cleaning and describes their res
 
 ### 3. Staff segmentation
 
-[`divide_into_staves.py`](./divide_into_staves.py) – Python script that divides each cleaned `**mens` spine into segments corresponding to the individual staves in the original source.
+[`divide_into_staves.py`](./code/divide_into_staves.py) – Python script that divides each cleaned `**mens` spine into segments corresponding to the individual staves in the original source.
 
 Each input file contains the cleaned `**mens` spine for a single choral voice. Staff breaks are indicated by the `=-` token, which the script uses to identify the boundaries between successive staves.
 
@@ -72,7 +72,7 @@ Each input file contains the cleaned `**mens` spine for a single choral voice. S
 
 ### 4. Sub-tokenization
 
-[`tokenizer.py`](./tokenizer.py) – Python script that splits individual `**mens` tokens into smaller units (subtokens).[^2]
+[`tokenizer.py`](./code/tokenizer.py) – Python script that splits individual `**mens` tokens into smaller units (subtokens).[^2]
 
 For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its constituent elements: the ligature start marker (`[`), the semibrevis note shape (`s`), the coloration marker (`~`), the pitch (`g`), and the accidental (`#`). This decomposition reduces the vocabulary size that the OMR model needs to handle.
 
