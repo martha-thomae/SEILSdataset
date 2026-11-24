@@ -86,7 +86,7 @@ For example, the token `[s~g#` is sub-tokenized as `[ s ~ g #`, separating its c
 
 ### Summary
 
-| Stage | Program/Script | Output folder | Contents |
+| Stage | Program/Script | Output folder (within `code` folder) | Contents |
 | ----- | -------------- | ------------- | -------- |
 | 1. Extraction | `extract_mens_spines.sh` | `extracted_mens_spines` | Extracted `**mens` spines from particellas |
 | 2. Cleaning | `clean-mns.sh` | `cleaned_mens_spines` | Cleaned `**mens` spines |
