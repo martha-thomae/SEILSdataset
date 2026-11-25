@@ -5,7 +5,7 @@ This repository is a fork of the [SEILS dataset](https://github.com/SEILSdataset
 This fork focuses exclusively on the OMR-related resources. In addition to preserving the original OMR ground truth, it introduces staff-level score images and corresponding Humdrum `**mens` encodings, specifically processed to facilitate training holistic staff-level image-to-sequence OMR models.
 
 The information is distributed into two folders:
-- The folder [`SEILS_diplomatic_OMRgroundTruth`](./SEILS_diplomatic_OMRgroundTruth) contains the original OMR-related resources from the SEILS dataset repository, preserved without modification. It is structured in the following subfolders:
+- The folder [**`SEILS_diplomatic_OMRgroundTruth`**](./SEILS_diplomatic_OMRgroundTruth) contains the **original OMR-related resources** from the SEILS dataset repository, preserved without modification. It is structured in the following subfolders:
   - `choral`: the thirty madrigals are encoded as chorales and saved into `MEI` (30 files) and Humdrum `**mens` (30 files).
   - `converters`: scripts used to transform the Humdrum `**mens` files (contained in the `particellas_codified` folder) into `agnostic` and `semantic` encodings, which are useful formats for OMR.
   - `particellas_OMRgroundTruth`: `agnostic` and `semantic` files encoding the 150 particellas. These files were generated using the `converter` scripts over the Humdrum `**mens` files in the `particellas_codified` folder.
@@ -19,7 +19,10 @@ The information is distributed into two folders:
 
   The `agnostic` and `semantic` encodings, together with the images of the 150 particellas, are the resources from the original repository relevant to OMR.
 
-- The folder [`staff-based_OMRgroundTruth`](./staff-based_OMRgroundTruth) contains the new resources introduced in this repository. It is intended to provide ready-to-use ground truth for image-to-sequence models that take as input individual staff-region images and output the sequence of music symbols contained in them. It contains:
+- The folder [**`staff-based_OMRgroundTruth`**](./staff-based_OMRgroundTruth) contains the **new resources** introduced in this repository. A detailed [README](./staff-based_OMRgroundTruth/README) about these resources and their generation can be found in the folder `staff-based_OMRgroundTruth`.
+
+  The material in this folder is intended to provide ready-to-use ground truth for image-to-sequence models that take as input individual staff-region images and output the sequence of music symbols contained in them. It contains:
+
   - **Staff-region images:** Images corresponding to the individual staff regions, obtained by segmenting the full-page images of the SEILS dataset. These regions were manually annotated using Label Studio.
     
     **-\>**  **For more details**, consult the ["A) Generating the images"](./staff-based_OMRgroundTruth#a-generating-the-images) section in the `staff-based_OMRgroundTruth` README.
