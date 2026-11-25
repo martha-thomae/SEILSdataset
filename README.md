@@ -22,7 +22,7 @@ The information is distributed into two folders:
 
 - The folder [**`staff-based_OMRgroundTruth`**](./staff-based_OMRgroundTruth) contains the **new resources** introduced in this repository.
 
-  **See the [README](./staff-based_OMRgroundTruth/README) in the `staff-based_OMRgroundTruth` folder to know more about these resources and their generation.** These resources are intended to provide ready-to-use ground truth for image-to-sequence models that take as input individual staff-region images and output the sequence of music symbols contained in them. The folder contains:
+  **See the [README](./staff-based_OMRgroundTruth/README.md) in the `staff-based_OMRgroundTruth` folder to know more about these resources and their generation.** These resources are intended to provide ready-to-use ground truth for image-to-sequence models that take as input individual staff-region images and output the sequence of music symbols contained in them. The folder contains:
 
   - **Staff-region images:** Images corresponding to the individual staff regions, obtained by segmenting the full-page images of the SEILS dataset. These regions were manually annotated using Label Studio.
     
