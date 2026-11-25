@@ -1,31 +1,29 @@
 **mens
 *clefC1
+s a
+M b
+M e
+s a
+M d
+M d
 M a
-M r
-L r
-S r
-s r
-m r
-m cc
-m : a
-U b
-m cc
+M : a
 m g
-M b -
-M a
 M g
-S r
-s : cc
-s b
+m cc
+m : b
+U a
 M a
-M b
-M b
+U g ##
+U f
+M g
+s a
 M r
-M g
-M cc
-M : cc
-m b
-M b
+s a
+s b -
 M a
+m r
 M g
-*custos a
+m a
+M f
+*custos e

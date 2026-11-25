@@ -1,27 +1,28 @@
 **mens
 *clefC3
-m : e
-U f
-m g
-m e
-M f
-M e
-s d
-s r
-s : c
-m B
-m A
-M c
-M d
-M e
-m A
-m f
-m : d
-U e
-m f
-m d
-M e
+M r
+s a
+s g
 M f
 s g
-s r
-*custos a
+S d
+M r
+M e
+M a
+M : a
+m g
+M g
+M f
+M e
+s f
+s e
+M d
+s d
+m c
+m B
+M A
+M d
+M c
+M B
+M g
+*custos e
