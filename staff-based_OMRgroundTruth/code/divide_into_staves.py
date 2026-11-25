@@ -44,3 +44,19 @@ for file_path in input_dir.iterdir():
             staff_content = staff_content + "\n"
             output_path = output_dir / f"{file_path.stem}_staff{i+1}.mns"
             output_path.write_text(staff_content, encoding="utf-8")
+
+# Especial files that have an extra clef on line # 4 (list item # 3)
+files = [
+    "marenzio_mentrelaura_A_staff4.mns",
+    "marenzio_mentrelaura_B_staff4.mns",
+    "marenzio_mentrelaura_C_staff4.mns",
+    "marenzio_mentrelaura_Q_staff4.mns",
+    "marenzio_mentrelaura_T_staff4.mns"
+]
+for file in files:
+    with (output_dir/file).open("r", encoding="utf-8") as ifile:
+        lines = ifile.readlines()
+    # Remove line # 4 (item # 3), the duplicated clef
+    newlines = lines[0:3]+lines[4:]
+    with (output_dir/file).open("w", encoding="utf-8") as ofile:
+        ofile.writelines(newlines)
