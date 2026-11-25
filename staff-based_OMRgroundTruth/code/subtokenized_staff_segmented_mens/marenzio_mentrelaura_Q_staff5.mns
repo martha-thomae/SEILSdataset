@@ -1,33 +1,30 @@
 **mens
 *clefC2
 *k[b-]
-S g
-M r
-U a
+m g
+M g
+m f
+m : b
+u a
+u g
+m f
+m : f
 U g
-U f
-U e \
-m d
-m d
+m a
+m g
+m : f ##
+U g
+M a
+s b
+m r
+m f
+m f
+m g
 U a
 U g
 U f
 U e \
 M d
-m d
-m e
-s f
-M f
-m r
-m b
-U a
-U a
-U b
-U cc
-m dd
-m g
-m r
-m b
-U a
-U a
-*custos b
+s e
+s f ##
+*custos g

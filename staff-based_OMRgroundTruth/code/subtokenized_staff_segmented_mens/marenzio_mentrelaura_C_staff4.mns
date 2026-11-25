@@ -1,28 +1,29 @@
 **mens
 *clefG2
 *k[b-]
-m dd
-m dd
-M dd
-M dd
-m dd
-m dd
-M dd
-M dd
-M dd
-m : cc
-U cc
-m cc
-m b -
-m : a
-U b
-M cc
+*clefG2
+*met(C)
 s dd
 m r
 m dd
-m dd
-m ee
+s ee
 M : ff
-U ee
-U dd
-*custos cc
+m ee
+M ee
+m r
+m cc ##
+M cc
+m r
+M dd
+M cc
+m b
+M a
+M g
+M r
+m r
+M dd
+M cc
+m b
+M a
+M g
+*custos dd

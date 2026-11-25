@@ -1,28 +1,26 @@
 **mens
 *clefF3
 *k[b-]
-m r
-m B
-m : F
-U E
-m F
+*clefF3
+*met(C)
+L r
+L r
+S r
+M r
 m G
-m : D
+m G
 U G
-M F
-m BB
-m B
-m B
-m c
-U d
-U c
+U A
 U B
-U A
-m B
-U A
+U c
+m d
+m G
+m G
+m G
 U G
-U F
-U E
-U D
-U C
-*custos D
+U A
+U B
+U c
+m d
+m G
+*custos B
