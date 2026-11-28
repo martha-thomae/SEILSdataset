@@ -31,7 +31,7 @@ mic	deg-
 mid	.
 mie	.
 mif	.
-*custos	*
+*custosg	*
 =-	=-
 mig	.
 mif	.
@@ -67,7 +67,7 @@ Mif	.
 .	.
 mic	to,e
 .	.
-*custos	*
+*custose	*
 =-	=-
 mp:e	spen-
 .	.
@@ -121,7 +121,7 @@ mic	tien
 mid	suo
 Mie	lo-
 .	.
-*custos	*
+*custosf	*
 =-	=-
 mif	co
 mig	Il
@@ -152,7 +152,7 @@ mp:c	li-
 Uic	be-
 mic	ro
 mic	mi
-*custos	*
+*custosB	*
 =-	=-
 UiB	sen-
 UiA	.
@@ -186,7 +186,7 @@ mif	da
 mie	l'in-
 mid	cen-
 miB	dio,e
-*custos	*
+*custosA	*
 =-	=-
 miA	dal
 mid	ri-
@@ -221,7 +221,7 @@ Mic	da,
 .	.
 .	.
 mie	Bel-
-*custos	*
+*custosa	*
 =-	=-
 Mia	lez-
 .	.
@@ -284,7 +284,7 @@ Mic	.
 .	.
 mic	.
 mid	La
-*custos	*
+*custose	*
 =-	=-
 Mie	li-
 Mid	ber-

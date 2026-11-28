@@ -27,7 +27,7 @@ mp:F	li-
 UiE	ce
 miF	fu
 miD	l'ar-
-*custos	*
+*custosC	*
 =-	=-
 MiC	do-
 miC	re,
@@ -63,7 +63,7 @@ MiG	l'õ-
 .	.
 miD	bra
 mid	Che
-*custos	*
+*custosB	*
 =-	=-
 UiB	lie-
 UiA	.
@@ -178,7 +178,7 @@ mid	.
 .	.
 miG	co
 .	.
-*custos	*
+*custosB	*
 =-	=-
 mir	.
 .	.
@@ -206,7 +206,7 @@ UiF	.
 UiE	.
 UiD	.
 UiC	.
-*custos	*
+*custosD	*
 =-	=-
 miD	.
 UiC	.
@@ -258,7 +258,7 @@ Uid	ful-
 Uic	mi-
 UiB	ne
 UiA	pa-
-*custos	*
+*custosG	*
 =-	=-
 MiG	uen-
 .	.
@@ -303,7 +303,7 @@ siE-	sot-
 MiBB	toai
 siF	sa-
 MiF	cri
-*custos	*
+*custosC	*
 =-	=-
 siC	ra-
 .	.
@@ -358,7 +358,7 @@ Sp:D	le.
 .	.
 .	.
 .	.
-*custos	*
+*custosd	*
 =-	=-
 Sir	.
 .	.

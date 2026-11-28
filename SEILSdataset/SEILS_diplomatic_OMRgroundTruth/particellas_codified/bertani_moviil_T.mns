@@ -45,7 +45,7 @@ sir	.
 .	.
 .	.
 .	.
-*custos	*
+*custosc	*
 =-	=-
 Mic	Mo-
 .	.
@@ -88,7 +88,7 @@ mie	quel
 mp:c##	lau-
 .	.
 Uid	.
-*custos	*
+*custose	*
 =-	=-
 Mie	.
 .	.
@@ -131,7 +131,7 @@ Mie	lau-
 miE	ro,
 UiA	che
 UiB	gia
-*custos	*
+*custosd	*
 =-	=-
 mid	fu
 miA	si
@@ -184,7 +184,7 @@ MiB	.
 Mp:A	lo,
 .	.
 miG	e
-*custos	*
+*custosc	*
 =-	=-
 Mic	so-
 MiB	lo
@@ -227,7 +227,7 @@ siC	co
 .	.
 .	.
 .	.
-*custos	*
+*custosC	*
 =-	=-
 Mir	.
 MiC	Pe-
@@ -276,7 +276,7 @@ MiF	piu
 .	.
 miF	si
 miF	bel
-*custos	*
+*custosc	*
 =-	=-
 sp:c	lau-
 .	.
@@ -333,7 +333,7 @@ mig	al
 .	.
 mic	mio
 .	.
-*custos	*
+*custosd	*
 =-	=-
 Mid	gran
 .	.

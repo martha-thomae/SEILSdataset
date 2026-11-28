@@ -46,7 +46,7 @@ MiAA	pir,
 .	.
 .	.
 .	.
-*custos	*
+*custosA	*
 =-	=-
 mp:A	l'ac-
 .	.
@@ -129,7 +129,7 @@ MiBB	.
 .	.
 miC	.
 miC	.
-*custos	*
+*custosAA	*
 =-	=-
 MiAA	.
 .	.
@@ -184,7 +184,7 @@ MiC	de
 .	.
 mir	.
 miD	in-
-*custos	*
+*custosE	*
 =-	=-
 MiE	gra-
 .	.
@@ -241,7 +241,7 @@ UiAA	.
 miBB	.
 .	.
 miC	ga,
-*custos	*
+*custosE	*
 =-	=-
 mp:E	Ne-
 .	.
@@ -289,7 +289,7 @@ miAA	ma
 mp:D	l'om-
 .	.
 UiD	bra
-*custos	*
+*custosD	*
 =-	=-
 miD	di
 miD	suoi
@@ -364,7 +364,7 @@ siE]	.
 .	.
 .	.
 .	.
-*custos	*
+*custosAA	*
 =-	=-
 siAA	.
 .	.
@@ -411,7 +411,7 @@ MiC	Ch'i-
 .	.
 miC	ui
 miC	lo
-*custos	*
+*custosAA	*
 =-	=-
 mp:AA	po-
 UiBB	.
@@ -461,7 +461,7 @@ mp:C	pian-
 UiD\	.
 UiE	.
 UiF	.
-*custos	*
+*custosG	*
 =-	=-
 miG	.
 miC	ti.

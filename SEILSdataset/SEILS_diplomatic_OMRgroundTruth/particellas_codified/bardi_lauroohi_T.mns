@@ -28,7 +28,7 @@ miG	Al-
 mp:A	cun-
 .	.
 UiA	de
-*custos	*
+*custosA	*
 =-	=-
 miA	pre-
 miG	gi
@@ -67,7 +67,7 @@ miB	quel
 mp:A	lau-
 .	.
 UiG	.
-*custos	*
+*custosF	*
 =-	=-
 miF##	.
 MiG	.
@@ -98,7 +98,7 @@ MiE	do-
 MiD	re,
 sir	.
 .	.
-*custos	*
+*custosD	*
 =-	=-
 Mir	.
 MiD	Dol-
@@ -131,7 +131,7 @@ Mp:G	dio-
 .	.
 .	.
 miA	.
-*custos	*
+*custosB	*
 =-	=-
 MiB	.
 MiF	sa
@@ -170,7 +170,7 @@ UiG	ri-
 miG	da
 miF##	fe-
 miG	.
-*custos	*
+*custosA	*
 =-	=-
 MiA	.
 .	.
@@ -208,7 +208,7 @@ MiG	in
 .	.
 miG	cui
 miE	si
-*custos	*
+*custosG	*
 =-	=-
 MiG	ve-
 MiC	de
